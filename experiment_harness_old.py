@@ -146,10 +146,9 @@ class ExperimentHarness:
             avg_pred_loss = np.mean(epoch_pred_errors) if epoch_pred_errors else None
             prediction_errors.append(avg_pred_loss)
             
-            # Collect statistics only for predictive network
-            if hasattr(model, 'get_layer_stats'):
-                epoch_stats = self.collect_epoch_stats(model, avg_train_loss, avg_pred_loss)
-                epoch_stats_list.append(epoch_stats)
+            # Collect statistics
+            epoch_stats = self.collect_epoch_stats(model, avg_train_loss, avg_pred_loss)
+            epoch_stats_list.append(epoch_stats)
             
             if epoch % self.eval_frequency == 0:
                 test_loss = self.evaluate_model(model, test_loader)
@@ -157,15 +156,14 @@ class ExperimentHarness:
                 print(f"Seed {seed}, Epoch {epoch}: Train Loss = {avg_train_loss:.4f}, "
                       f"Test Loss = {test_loss:.4f}")
                 
-                # Print layer statistics for predictive network
-                if hasattr(model, 'get_layer_stats'):
-                    print("\nLayer Statistics:")
-                    for layer_idx, conf in epoch_stats.layer_confidences.items():
-                        print(f"Layer {layer_idx}:")
-                        print(f"  Confidence: {conf:.3f}")
-                        print(f"  Pred Error: {epoch_stats.layer_pred_errors[layer_idx]:.3f}")
-                        print(f"  Penult Flow: {epoch_stats.penultimate_flows[layer_idx]:.3f}")
-                        print(f"  Continue Flow: {epoch_stats.continue_flows[layer_idx]:.3f}")
+                # Print layer statistics
+                print("\nLayer Statistics:")
+                for layer_idx, conf in epoch_stats.layer_confidences.items():
+                    print(f"Layer {layer_idx}:")
+                    print(f"  Confidence: {conf:.3f}")
+                    print(f"  Pred Error: {epoch_stats.layer_pred_errors[layer_idx]:.3f}")
+                    print(f"  Penult Flow: {epoch_stats.penultimate_flows[layer_idx]:.3f}")
+                    print(f"  Continue Flow: {epoch_stats.continue_flows[layer_idx]:.3f}")
         
         final_test_loss = self.evaluate_model(model, test_loader)
         

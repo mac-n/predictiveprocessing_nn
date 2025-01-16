@@ -1,14 +1,24 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from typing import Dict, List, Tuple, Optional
+from dataclasses import dataclass
+
+@dataclass
+class LayerStats:
+    """Track statistics for a single layer during forward pass"""
+    prediction_errors: torch.Tensor  # [batch_size, 1]
+    confidence_values: torch.Tensor  # [batch_size, 1]
+    penultimate_magnitude: torch.Tensor  # Average magnitude of penultimate contribution
+    continue_magnitude: torch.Tensor    # Average magnitude of continue_up values
+    layer_idx: int
 
 class PredictiveLayer(nn.Module):
     def __init__(self, input_dim, hidden_dim, next_dim, penultimate_dim):
         super().__init__()
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim
-        self.next_dim = next_dim
-        self.penultimate_dim = penultimate_dim
+        self.compressed_dim = max(next_dim // 4, 8)  # Ensure minimum size
         
         # Main processing pathway
         self.process = nn.Sequential(
@@ -16,41 +26,64 @@ class PredictiveLayer(nn.Module):
             nn.ReLU()
         )
         
-        # Predict next layer's transformation
-        self.predict_next = nn.Linear(hidden_dim, next_dim)  # Now predicts correct dimension
+        # Lightweight prediction pathway
+        self.predict_next = nn.Linear(hidden_dim, self.compressed_dim)
+        self.compress_next = nn.Linear(next_dim, self.compressed_dim)
         
         # Path to penultimate layer
         self.to_penultimate = nn.Linear(hidden_dim, penultimate_dim)
         
-    def forward(self, x, next_layer=None):
+        # For tracking statistics
+        self.last_stats: Optional[LayerStats] = None
+        
+    def forward(self, x: torch.Tensor, next_layer: Optional['PredictiveLayer'], layer_idx: int) -> Tuple[Optional[torch.Tensor], torch.Tensor, Optional[torch.Tensor]]:
         # Process input
         hidden = self.process(x)
         
         if next_layer is not None:
-            # Predict next layer's transformation
+            # Predict next layer's compressed transformation
             predicted_next = self.predict_next(hidden)
             
-            # Get actual next layer transformation
+            # Get actual next layer transformation (compressed)
             with torch.no_grad():
                 actual_next = next_layer.process(hidden)
+                compressed_next = self.compress_next(actual_next)
             
             # Prediction error (per sample)
-            pred_error = torch.mean((actual_next - predicted_next)**2, dim=1, keepdim=True)
+            pred_error = torch.mean((compressed_next - predicted_next)**2, dim=1, keepdim=True)
             
             # Route based on prediction accuracy
             confidence = torch.sigmoid(-pred_error)  # High when error is low
             
-            # Well-predicted information goes to penultimate
+            # Route information based on prediction accuracy
             penultimate_features = self.to_penultimate(hidden)
             penultimate_contribution = penultimate_features * confidence
-            
-            # Poorly-predicted information continues upward
             continue_up = hidden * (1 - confidence)
+            
+            # Track statistics
+            self.last_stats = LayerStats(
+                prediction_errors=pred_error.detach(),
+                confidence_values=confidence.detach(),
+                penultimate_magnitude=torch.mean(torch.norm(penultimate_contribution.detach(), dim=1)),
+                continue_magnitude=torch.mean(torch.norm(continue_up.detach(), dim=1)),
+                layer_idx=layer_idx
+            )
             
             return continue_up, penultimate_contribution, pred_error
         else:
             # Last layer just contributes to penultimate
-            return None, self.to_penultimate(hidden), None
+            penultimate_contribution = self.to_penultimate(hidden)
+            
+            # Track statistics (no prediction for last layer)
+            self.last_stats = LayerStats(
+                prediction_errors=torch.zeros(1, 1, device=x.device),
+                confidence_values=torch.ones(1, 1, device=x.device),
+                penultimate_magnitude=torch.mean(torch.norm(penultimate_contribution.detach(), dim=1)),
+                continue_magnitude=torch.tensor(0.0, device=x.device),
+                layer_idx=layer_idx
+            )
+            
+            return None, penultimate_contribution, None
 
 class PredictiveNet(nn.Module):
     def __init__(self, input_dim, hidden_dims, penultimate_dim, output_dim):
@@ -59,7 +92,7 @@ class PredictiveNet(nn.Module):
         self.layers = nn.ModuleList()
         current_dim = input_dim
         
-        # Create layers with correct next dimensions
+        # Create layers
         for i, hidden_dim in enumerate(hidden_dims):
             next_dim = hidden_dims[i + 1] if i < len(hidden_dims) - 1 else penultimate_dim
             layer = PredictiveLayer(current_dim, hidden_dim, next_dim, penultimate_dim)
@@ -69,7 +102,11 @@ class PredictiveNet(nn.Module):
         # Final output layer
         self.final = nn.Linear(penultimate_dim, output_dim)
     
-    def forward(self, x):
+    def get_layer_stats(self) -> List[LayerStats]:
+        """Return statistics from the last forward pass for all layers"""
+        return [layer.last_stats for layer in self.layers if layer.last_stats is not None]
+    
+    def forward(self, x: torch.Tensor) -> Tuple[torch.Tensor, Optional[torch.Tensor]]:
         penultimate_contributions = []
         current = x
         all_errors = []
@@ -77,7 +114,7 @@ class PredictiveNet(nn.Module):
         # Process through layers
         for i, layer in enumerate(self.layers):
             next_layer = self.layers[i+1] if i < len(self.layers)-1 else None
-            current, penultimate, error = layer(current, next_layer)
+            current, penultimate, error = layer(current, next_layer, i)
             
             if error is not None:
                 all_errors.append(error)
@@ -89,5 +126,4 @@ class PredictiveNet(nn.Module):
         # Final output
         output = self.final(penultimate)
         
-        # Return both outputs and mean prediction error
         return output, torch.cat(all_errors, dim=1) if all_errors else None

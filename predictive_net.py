@@ -7,8 +7,6 @@ class PredictiveLayer(nn.Module):
         super().__init__()
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim
-        self.next_dim = next_dim
-        self.penultimate_dim = penultimate_dim
         
         # Main processing pathway
         self.process = nn.Sequential(
@@ -17,10 +15,14 @@ class PredictiveLayer(nn.Module):
         )
         
         # Predict next layer's transformation
-        self.predict_next = nn.Linear(hidden_dim, next_dim)  # Now predicts correct dimension
+        self.predict_next = nn.Linear(hidden_dim, next_dim)
         
-        # Path to penultimate layer
-        self.to_penultimate = nn.Linear(hidden_dim, penultimate_dim)
+        # Path to penultimate - now with more structure
+        self.to_penultimate = nn.Sequential(
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.ReLU(),
+            nn.Linear(hidden_dim, penultimate_dim)
+        )
         
     def forward(self, x, next_layer=None):
         # Process input
@@ -40,7 +42,7 @@ class PredictiveLayer(nn.Module):
             # Route based on prediction accuracy
             confidence = torch.sigmoid(-pred_error)  # High when error is low
             
-            # Well-predicted information goes to penultimate
+            # Create penultimate features with confidence information
             penultimate_features = self.to_penultimate(hidden)
             penultimate_contribution = penultimate_features * confidence
             
@@ -49,8 +51,31 @@ class PredictiveLayer(nn.Module):
             
             return continue_up, penultimate_contribution, pred_error
         else:
-            # Last layer just contributes to penultimate
+            # Last layer's contribution to penultimate
             return None, self.to_penultimate(hidden), None
+
+class PenultimateLayer(nn.Module):
+    def __init__(self, penultimate_dim, num_layers):
+        super().__init__()
+        self.num_layers = num_layers
+        
+        # Weighting mechanism for different layers' contributions
+        self.contribution_weights = nn.Parameter(torch.ones(num_layers)/num_layers)
+        
+        # Processing for combined features
+        self.process = nn.Sequential(
+            nn.Linear(penultimate_dim, penultimate_dim*2),
+            nn.ReLU(),
+            nn.Linear(penultimate_dim*2, penultimate_dim)
+        )
+    
+    def forward(self, contributions):
+        # Weight and combine contributions from different layers
+        weights = F.softmax(self.contribution_weights, dim=0)
+        weighted_sum = sum(w * c for w, c in zip(weights, contributions))
+        
+        # Process the combined features
+        return self.process(weighted_sum)
 
 class PredictiveNet(nn.Module):
     def __init__(self, input_dim, hidden_dims, penultimate_dim, output_dim):
@@ -65,6 +90,9 @@ class PredictiveNet(nn.Module):
             layer = PredictiveLayer(current_dim, hidden_dim, next_dim, penultimate_dim)
             self.layers.append(layer)
             current_dim = hidden_dim
+        
+        # Dedicated penultimate layer
+        self.penultimate = PenultimateLayer(penultimate_dim, len(self.layers))
         
         # Final output layer
         self.final = nn.Linear(penultimate_dim, output_dim)
@@ -83,11 +111,10 @@ class PredictiveNet(nn.Module):
                 all_errors.append(error)
             penultimate_contributions.append(penultimate)
         
-        # Combine all contributions in penultimate layer
-        penultimate = torch.sum(torch.stack(penultimate_contributions), dim=0)
+        # Process in dedicated penultimate layer
+        penultimate = self.penultimate(penultimate_contributions)
         
         # Final output
         output = self.final(penultimate)
         
-        # Return both outputs and mean prediction error
         return output, torch.cat(all_errors, dim=1) if all_errors else None

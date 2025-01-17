@@ -15,7 +15,7 @@ class LayerStats:
     pattern_usage: torch.Tensor  # Track which patterns are being used
     
 class PatternPredictiveLayer(nn.Module):
-    def __init__(self, input_dim, hidden_dim, next_dim, penultimate_dim, n_patterns=8):
+    def __init__(self, input_dim, hidden_dim, next_dim, penultimate_dim, n_patterns=12):
         super().__init__()
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim

@@ -18,7 +18,7 @@ class PredictiveLayer(nn.Module):
         super().__init__()
         self.input_dim = input_dim
         self.hidden_dim = hidden_dim
-        self.predict_next = nn.Linear(hidden_dim, next_dim)
+        self.compressed_dim = max(next_dim // 4, 8)  # Ensure minimum size
         
         # Main processing pathway
         self.process = nn.Sequential(
@@ -26,7 +26,9 @@ class PredictiveLayer(nn.Module):
             nn.ReLU()
         )
         
-       
+        # Lightweight prediction pathway
+        self.predict_next = nn.Linear(hidden_dim, self.compressed_dim)
+        self.compress_next = nn.Linear(next_dim, self.compressed_dim)
         
         # Path to penultimate layer
         self.to_penultimate = nn.Linear(hidden_dim, penultimate_dim)
@@ -45,10 +47,10 @@ class PredictiveLayer(nn.Module):
             # Get actual next layer transformation (compressed)
             with torch.no_grad():
                 actual_next = next_layer.process(hidden)
-                
+                compressed_next = self.compress_next(actual_next)
             
             # Prediction error (per sample)
-            pred_error = torch.mean((actual_next - predicted_next)**2, dim=1, keepdim=True)
+            pred_error = torch.mean((compressed_next - predicted_next)**2, dim=1, keepdim=True)
             
             # Route based on prediction accuracy
             # Dynamic temperature based on prediction certainty

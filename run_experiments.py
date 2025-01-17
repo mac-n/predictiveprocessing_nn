@@ -7,9 +7,7 @@ from scipy import stats
 
 def run_all_experiments(output_file="new_experiment_results.json"):
     data_generators = {
-        "switching_sine": generate_switching_sine_data,
         "lorenz": generate_lorenz_data,
-        "mixed_frequency": generate_mixed_frequency_data,
         "memory": generate_memory_data,
         "language": generate_language_data
     }

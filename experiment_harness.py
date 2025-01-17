@@ -260,8 +260,8 @@ def create_standard_net(sequence_length=20, hidden_dims=[64, 32, 16]):
 
 def create_predictive_net(sequence_length=20, hidden_dims=[64, 32, 16]):
     """Create predictive network with new architecture"""
-    from predictive_net import PredictiveNet
-    return PredictiveNet(
+    from predictive_net import PatternPredictiveNet
+    return PatternPredictiveNet(
         input_dim=sequence_length,
         hidden_dims=hidden_dims,
         penultimate_dim=32,  # Size of integration layer

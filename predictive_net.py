@@ -55,6 +55,11 @@ class PredictiveLayer(nn.Module):
             # Route based on prediction accuracy
             confidence = torch.sigmoid(-pred_error)  # High when error is low
             
+            # Add routing cost - penalize using both paths
+            routing_balance = confidence * (1 - confidence)  # High when routing is ambiguous
+            routing_cost = 0.1 * torch.mean(routing_balance)
+            pred_error = pred_error + routing_cost
+            
             # Route information based on prediction accuracy
             penultimate_features = self.to_penultimate(hidden)
             penultimate_contribution = penultimate_features * confidence

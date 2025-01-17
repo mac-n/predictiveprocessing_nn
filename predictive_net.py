@@ -55,11 +55,8 @@ class PredictiveLayer(nn.Module):
             # Route based on prediction accuracy
             # Dynamic temperature based on prediction certainty
             pred_certainty = torch.abs(pred_error - torch.mean(pred_error))
-            temperature = torch.sigmoid(pred_certainty)
-            
-            # Route based on prediction accuracy using logit scaling
-            scaled_error = -pred_error * temperature
-            confidence = 0.5 * (torch.tanh(scaled_error) + 1)  # logit-like but bounded 0-1
+            confidence = 0.5 * (torch.tanh(-pred_error) + 1)
+
             
             # Add routing cost - penalize using both paths
             routing_balance = confidence * (1 - confidence)  # High when routing is ambiguous

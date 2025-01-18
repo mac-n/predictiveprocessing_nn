@@ -51,6 +51,8 @@ def load_model():
         print("No saved model found, training new model...")
         return train_model()
 
+from datetime import datetime
+
 def main():
     # Load or train the model
     model, result = load_model()
@@ -61,20 +63,26 @@ def main():
     else:
         print(f"\nTest loss from new model: {result.final_test_loss:.6f}")
     
+    # Create a timestamped output directory
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_dir = os.path.join('pattern_analysis_outputs', f'analysis_{timestamp}')
+    os.makedirs(output_dir, exist_ok=True)
+    
     # Create visualizations
     print("\nGenerating pattern analysis visualizations...")
     analyzer = visualize_lorenz_patterns(generate_lorenz_data, model)
     
-    # Save plots to files
-    print("\nSaving plots...")
+    # Save plots to files in the timestamped folder
+    print(f"\nSaving plots to {output_dir}...")
     for i in plt.get_fignums():
         plt.figure(i)
-        plt.savefig(f'pattern_analysis_plot_{i}.png')
-        
-    print("\nAnalysis complete! Check the saved plot files.")
+        plot_filename = os.path.join(output_dir, f'pattern_analysis_plot_{i}.png')
+        plt.savefig(plot_filename)
     
-    # Optionally show plots (comment out if running on a server without display)
-    plt.show()
+    # Close all plots to prevent blocking
+    plt.close('all')
+    
+    print(f"\nAnalysis complete! Check the plots in {output_dir}")
 
 if __name__ == "__main__":
     main()

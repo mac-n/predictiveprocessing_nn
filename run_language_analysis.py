@@ -3,7 +3,6 @@ from predictive_net import PatternPredictiveNet
 from experiment_harness import ExperimentHarness
 from data_generators import generate_language_data
 import torch
-import matplotlib.pyplot as plt
 
 def create_pattern_predictive_net():
     return PatternPredictiveNet(
@@ -35,8 +34,7 @@ def main():
     print("\nAnalyzing language patterns...")
     analyzer, data = analyze_language_patterns(model, n_samples=100)
     
-    print("\nAnalysis complete! Check the generated PNG files.")
-    plt.close('all')
+    print("\nAnalysis complete!")
     
     # Print final test loss
     print(f"\nFinal test loss: {next(iter(results.values())).final_test_loss:.4f}")

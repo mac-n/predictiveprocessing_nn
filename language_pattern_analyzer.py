@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import List, Dict, Tuple
+import os
+from datetime import datetime
 
 class LanguagePatternAnalyzer:
     def __init__(self, model):
@@ -145,6 +147,11 @@ def analyze_language_patterns(model, n_samples=100):
     """Run complete pattern analysis on language data"""
     from data_generators import generate_language_data
     
+    # Create timestamped directory for visualizations
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    viz_dir = f"language_viz_{timestamp}"
+    os.makedirs(viz_dir, exist_ok=True)
+    
     # Generate sample sequences
     X, _ = generate_language_data(n_samples=n_samples)
     
@@ -158,14 +165,22 @@ def analyze_language_patterns(model, n_samples=100):
     # Run analysis
     data = analyzer.analyze_pattern_activations(sequences)
     
-    # Generate visualizations
+    # Generate visualizations and save to timestamped directory
+    plt.figure()
     analyzer.visualize_pattern_character_associations(data, layer=0)
-    plt.savefig('char_pattern_associations.png')
+    plt.savefig(os.path.join(viz_dir, 'char_pattern_associations.png'))
+    plt.close()
     
+    plt.figure()
     analyzer.visualize_sequence_patterns(data, layer=0)
-    plt.savefig('sequence_patterns.png')
+    plt.savefig(os.path.join(viz_dir, 'sequence_patterns.png'))
+    plt.close()
     
+    plt.figure()
     analyzer.analyze_word_boundary_patterns(data, layer=0)
-    plt.savefig('word_boundary_patterns.png')
+    plt.savefig(os.path.join(viz_dir, 'word_boundary_patterns.png'))
+    plt.close()
+    
+    print(f"Visualizations saved in directory: {viz_dir}")
     
     return analyzer, data

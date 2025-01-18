@@ -1,4 +1,5 @@
 from lorenz_pattern_mapper import map_lorenz_patterns
+from lorenz_projections import run_pattern_projection_analysis
 from data_generators import generate_lorenz_data
 from experiment_harness import ExperimentHarness
 from predictive_net import PatternPredictiveNet
@@ -47,6 +48,7 @@ def main():
     fig_3d.savefig(os.path.join(output_dir, 'lorenz_trajectory_patterns.png'))
     plt.figure(pattern_axes[0].figure)
     plt.savefig(os.path.join(output_dir, 'pattern_state_mapping.png'))
+    run_pattern_projection_analysis(model)
     
     # Close all plots to prevent blocking
     plt.close('all')

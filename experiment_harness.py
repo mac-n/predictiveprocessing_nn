@@ -25,6 +25,7 @@ class ExperimentResult:
     final_test_loss: float
     prediction_errors: Optional[List[float]] = None
     epoch_stats: Optional[List[EpochStats]] = None  # Track stats across epochs
+    model_state_dict: Optional[Dict] = None  
 
 class ExperimentHarness:
     def __init__(
@@ -174,8 +175,9 @@ class ExperimentHarness:
             test_losses=test_losses,
             final_test_loss=final_test_loss,
             prediction_errors=prediction_errors if prediction_errors else None,
-            epoch_stats=epoch_stats_list
-        )
+            epoch_stats=epoch_stats_list,
+            model_state_dict=model.state_dict()  # Add this line
+            )
 
     def analyze_layer_behavior(self, results: Dict[int, ExperimentResult]) -> pd.DataFrame:
         """Analyze layer behavior across all trials"""

@@ -90,7 +90,7 @@ class HierarchicalPatternLayer(nn.Module):
             
             # Get pattern attention weights
             attn = self.pattern_attentions[level](current)
-            pattern_weights = F.softmax(attn, dim=-1)
+            pattern_weights = F.gumbel_softmax(attn, tau=0.1, hard=True, dim=-1)
             
             # Compress using patterns
             compressed = pattern_weights @ patterns

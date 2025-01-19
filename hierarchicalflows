@@ -1,0 +1,6680 @@
+
+Running experiments for lorenz data...
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 53.3913, Test Loss = 29.6030
+Seed 0, Epoch 5: Train Loss = 1.2234, Test Loss = 0.9575
+Seed 0, Epoch 10: Train Loss = 0.3255, Test Loss = 0.5973
+Seed 0, Epoch 15: Train Loss = 0.1298, Test Loss = 0.1300
+Seed 0, Epoch 20: Train Loss = 0.1054, Test Loss = 0.0968
+Seed 0, Epoch 25: Train Loss = 0.0697, Test Loss = 0.0907
+Seed 0, Epoch 30: Train Loss = 0.0459, Test Loss = 0.1136
+Seed 0, Epoch 35: Train Loss = 0.0456, Test Loss = 0.0592
+Seed 0, Epoch 40: Train Loss = 0.0369, Test Loss = 0.0725
+Seed 0, Epoch 45: Train Loss = 0.0354, Test Loss = 0.0487
+Seed 0, Epoch 50: Train Loss = 0.0205, Test Loss = 0.0432
+Seed 0, Epoch 55: Train Loss = 0.0246, Test Loss = 0.0582
+Seed 0, Epoch 60: Train Loss = 0.0242, Test Loss = 0.0306
+Seed 0, Epoch 65: Train Loss = 0.0182, Test Loss = 0.0250
+Seed 0, Epoch 70: Train Loss = 0.0160, Test Loss = 0.0241
+Seed 0, Epoch 75: Train Loss = 0.0188, Test Loss = 0.0485
+Seed 0, Epoch 80: Train Loss = 0.0173, Test Loss = 0.0226
+Seed 0, Epoch 85: Train Loss = 0.0191, Test Loss = 0.0319
+Seed 0, Epoch 90: Train Loss = 0.0172, Test Loss = 0.0214
+Seed 0, Epoch 95: Train Loss = 0.0451, Test Loss = 0.0587
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 47.5131, Test Loss = 25.3475
+Seed 1, Epoch 5: Train Loss = 1.4002, Test Loss = 0.8415
+Seed 1, Epoch 10: Train Loss = 0.3165, Test Loss = 0.2374
+Seed 1, Epoch 15: Train Loss = 0.1224, Test Loss = 0.0924
+Seed 1, Epoch 20: Train Loss = 0.0965, Test Loss = 0.0807
+Seed 1, Epoch 25: Train Loss = 0.0831, Test Loss = 0.1485
+Seed 1, Epoch 30: Train Loss = 0.0733, Test Loss = 0.0486
+Seed 1, Epoch 35: Train Loss = 0.0597, Test Loss = 0.0470
+Seed 1, Epoch 40: Train Loss = 0.0489, Test Loss = 0.0495
+Seed 1, Epoch 45: Train Loss = 0.0613, Test Loss = 0.0265
+Seed 1, Epoch 50: Train Loss = 0.0326, Test Loss = 0.0302
+Seed 1, Epoch 55: Train Loss = 0.0349, Test Loss = 0.0273
+Seed 1, Epoch 60: Train Loss = 0.0354, Test Loss = 0.0220
+Seed 1, Epoch 65: Train Loss = 0.0252, Test Loss = 0.0240
+Seed 1, Epoch 70: Train Loss = 0.0331, Test Loss = 0.0294
+Seed 1, Epoch 75: Train Loss = 0.0162, Test Loss = 0.0225
+Seed 1, Epoch 80: Train Loss = 0.0240, Test Loss = 0.0207
+Seed 1, Epoch 85: Train Loss = 0.0203, Test Loss = 0.0341
+Seed 1, Epoch 90: Train Loss = 0.0292, Test Loss = 0.0192
+Seed 1, Epoch 95: Train Loss = 0.0123, Test Loss = 0.0139
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 52.8382, Test Loss = 30.8244
+Seed 2, Epoch 5: Train Loss = 1.1900, Test Loss = 0.8556
+Seed 2, Epoch 10: Train Loss = 0.3099, Test Loss = 0.2667
+Seed 2, Epoch 15: Train Loss = 0.0999, Test Loss = 0.0704
+Seed 2, Epoch 20: Train Loss = 0.0818, Test Loss = 0.0815
+Seed 2, Epoch 25: Train Loss = 0.0555, Test Loss = 0.0763
+Seed 2, Epoch 30: Train Loss = 0.0668, Test Loss = 0.0623
+Seed 2, Epoch 35: Train Loss = 0.0352, Test Loss = 0.0302
+Seed 2, Epoch 40: Train Loss = 0.0294, Test Loss = 0.0287
+Seed 2, Epoch 45: Train Loss = 0.0291, Test Loss = 0.0228
+Seed 2, Epoch 50: Train Loss = 0.0301, Test Loss = 0.0262
+Seed 2, Epoch 55: Train Loss = 0.0363, Test Loss = 0.0469
+Seed 2, Epoch 60: Train Loss = 0.0183, Test Loss = 0.0334
+Seed 2, Epoch 65: Train Loss = 0.1003, Test Loss = 0.1047
+Seed 2, Epoch 70: Train Loss = 0.0172, Test Loss = 0.0147
+Seed 2, Epoch 75: Train Loss = 0.0831, Test Loss = 0.0626
+Seed 2, Epoch 80: Train Loss = 0.0128, Test Loss = 0.0125
+Seed 2, Epoch 85: Train Loss = 0.0151, Test Loss = 0.0187
+Seed 2, Epoch 90: Train Loss = 0.0085, Test Loss = 0.0101
+Seed 2, Epoch 95: Train Loss = 0.0116, Test Loss = 0.0154
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 60.4287, Test Loss = 39.7031
+Seed 3, Epoch 5: Train Loss = 1.0881, Test Loss = 1.2296
+Seed 3, Epoch 10: Train Loss = 0.2871, Test Loss = 0.3572
+Seed 3, Epoch 15: Train Loss = 0.1757, Test Loss = 0.2224
+Seed 3, Epoch 20: Train Loss = 0.1238, Test Loss = 0.1259
+Seed 3, Epoch 25: Train Loss = 0.0941, Test Loss = 0.1126
+Seed 3, Epoch 30: Train Loss = 0.0911, Test Loss = 0.0744
+Seed 3, Epoch 35: Train Loss = 0.0865, Test Loss = 0.1233
+Seed 3, Epoch 40: Train Loss = 0.0744, Test Loss = 0.0480
+Seed 3, Epoch 45: Train Loss = 0.0518, Test Loss = 0.0518
+Seed 3, Epoch 50: Train Loss = 0.0757, Test Loss = 0.0589
+Seed 3, Epoch 55: Train Loss = 0.0525, Test Loss = 0.0454
+Seed 3, Epoch 60: Train Loss = 0.0530, Test Loss = 0.0422
+Seed 3, Epoch 65: Train Loss = 0.0385, Test Loss = 0.0441
+Seed 3, Epoch 70: Train Loss = 0.0303, Test Loss = 0.0317
+Seed 3, Epoch 75: Train Loss = 0.0364, Test Loss = 0.0294
+Seed 3, Epoch 80: Train Loss = 0.0326, Test Loss = 0.0405
+Seed 3, Epoch 85: Train Loss = 0.0274, Test Loss = 0.0399
+Seed 3, Epoch 90: Train Loss = 0.0240, Test Loss = 0.0275
+Seed 3, Epoch 95: Train Loss = 0.0312, Test Loss = 0.0330
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 44.7568, Test Loss = 20.8747
+Seed 4, Epoch 5: Train Loss = 1.2327, Test Loss = 0.7502
+Seed 4, Epoch 10: Train Loss = 0.3002, Test Loss = 0.1983
+Seed 4, Epoch 15: Train Loss = 0.1220, Test Loss = 0.0880
+Seed 4, Epoch 20: Train Loss = 0.1524, Test Loss = 0.1087
+Seed 4, Epoch 25: Train Loss = 0.0766, Test Loss = 0.0574
+Seed 4, Epoch 30: Train Loss = 0.0520, Test Loss = 0.0545
+Seed 4, Epoch 35: Train Loss = 0.0508, Test Loss = 0.0782
+Seed 4, Epoch 40: Train Loss = 0.0425, Test Loss = 0.0645
+Seed 4, Epoch 45: Train Loss = 0.0408, Test Loss = 0.0951
+Seed 4, Epoch 50: Train Loss = 0.0344, Test Loss = 0.0469
+Seed 4, Epoch 55: Train Loss = 0.0296, Test Loss = 0.0144
+Seed 4, Epoch 60: Train Loss = 0.0453, Test Loss = 0.0223
+Seed 4, Epoch 65: Train Loss = 0.0288, Test Loss = 0.0119
+Seed 4, Epoch 70: Train Loss = 0.0173, Test Loss = 0.0162
+Seed 4, Epoch 75: Train Loss = 0.0209, Test Loss = 0.0131
+Seed 4, Epoch 80: Train Loss = 0.0168, Test Loss = 0.0145
+Seed 4, Epoch 85: Train Loss = 0.0190, Test Loss = 0.0160
+Seed 4, Epoch 90: Train Loss = 0.0136, Test Loss = 0.0073
+Seed 4, Epoch 95: Train Loss = 0.0200, Test Loss = 0.0256
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 69.7274, Test Loss = 66.2724
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 0.465
+  Continue Flow: 15.328
+  Pattern Entropy: 1.973
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.099
+  Penult Flow: 0.514
+  Continue Flow: 3.537
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.272
+  Continue Flow: 0.000
+  Pattern Entropy: 1.980
+Seed 0, Epoch 5: Train Loss = 14.5306, Test Loss = 11.4059
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 3.359
+  Continue Flow: 24.177
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.117
+  Penult Flow: 1.576
+  Continue Flow: 12.799
+  Pattern Entropy: 1.989
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.826
+  Continue Flow: 0.000
+  Pattern Entropy: 1.961
+Seed 0, Epoch 10: Train Loss = 10.5868, Test Loss = 9.6109
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.134
+  Penult Flow: 3.107
+  Continue Flow: 20.403
+  Pattern Entropy: 1.984
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.117
+  Penult Flow: 1.615
+  Continue Flow: 11.758
+  Pattern Entropy: 1.994
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.405
+  Continue Flow: 0.000
+  Pattern Entropy: 1.969
+Seed 0, Epoch 15: Train Loss = 10.3240, Test Loss = 9.9463
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.127
+  Penult Flow: 3.056
+  Continue Flow: 24.317
+  Pattern Entropy: 1.985
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 2.159
+  Continue Flow: 13.894
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.721
+  Continue Flow: 0.000
+  Pattern Entropy: 1.961
+Seed 0, Epoch 20: Train Loss = 9.8964, Test Loss = 9.3711
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.132
+  Penult Flow: 3.397
+  Continue Flow: 26.131
+  Pattern Entropy: 1.969
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.114
+  Penult Flow: 1.894
+  Continue Flow: 13.360
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.646
+  Continue Flow: 0.000
+  Pattern Entropy: 1.968
+Seed 0, Epoch 25: Train Loss = 8.7577, Test Loss = 8.7024
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.127
+  Penult Flow: 3.358
+  Continue Flow: 25.724
+  Pattern Entropy: 1.962
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.118
+  Penult Flow: 1.653
+  Continue Flow: 14.921
+  Pattern Entropy: 1.995
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.518
+  Continue Flow: 0.000
+  Pattern Entropy: 1.944
+Seed 0, Epoch 30: Train Loss = 9.7018, Test Loss = 8.1830
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.125
+  Penult Flow: 2.841
+  Continue Flow: 22.365
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.119
+  Penult Flow: 2.146
+  Continue Flow: 11.339
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.019
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 0, Epoch 35: Train Loss = 8.3658, Test Loss = 7.5645
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.123
+  Penult Flow: 3.600
+  Continue Flow: 26.128
+  Pattern Entropy: 1.959
+Layer 1:
+  Confidence: 0.473
+  Pred Error: 0.133
+  Penult Flow: 2.747
+  Continue Flow: 13.729
+  Pattern Entropy: 1.958
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.313
+  Continue Flow: 0.000
+  Pattern Entropy: 1.948
+Seed 0, Epoch 40: Train Loss = 8.2080, Test Loss = 7.2354
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.133
+  Penult Flow: 3.621
+  Continue Flow: 25.438
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.110
+  Penult Flow: 1.337
+  Continue Flow: 13.085
+  Pattern Entropy: 1.977
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.446
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 0, Epoch 45: Train Loss = 7.5764, Test Loss = 8.1371
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.134
+  Penult Flow: 4.070
+  Continue Flow: 22.737
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.124
+  Penult Flow: 2.590
+  Continue Flow: 11.398
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.476
+  Continue Flow: 0.000
+  Pattern Entropy: 1.963
+Seed 0, Epoch 50: Train Loss = 7.9641, Test Loss = 7.5495
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.130
+  Penult Flow: 3.550
+  Continue Flow: 22.202
+  Pattern Entropy: 1.969
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 2.172
+  Continue Flow: 12.312
+  Pattern Entropy: 1.992
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.498
+  Continue Flow: 0.000
+  Pattern Entropy: 1.939
+Seed 0, Epoch 55: Train Loss = 7.0733, Test Loss = 7.0708
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.132
+  Penult Flow: 3.440
+  Continue Flow: 23.294
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.112
+  Penult Flow: 2.116
+  Continue Flow: 11.974
+  Pattern Entropy: 1.987
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.224
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 0, Epoch 60: Train Loss = 7.4436, Test Loss = 7.9815
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 3.452
+  Continue Flow: 21.948
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.110
+  Penult Flow: 2.085
+  Continue Flow: 11.161
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.478
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 0, Epoch 65: Train Loss = 7.0017, Test Loss = 8.3139
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.139
+  Penult Flow: 3.601
+  Continue Flow: 20.455
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.099
+  Penult Flow: 1.190
+  Continue Flow: 10.178
+  Pattern Entropy: 1.968
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.984
+  Continue Flow: 0.000
+  Pattern Entropy: 1.961
+Seed 0, Epoch 70: Train Loss = 6.8287, Test Loss = 7.4597
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.130
+  Penult Flow: 3.760
+  Continue Flow: 20.639
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.104
+  Penult Flow: 1.052
+  Continue Flow: 10.424
+  Pattern Entropy: 1.959
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.710
+  Continue Flow: 0.000
+  Pattern Entropy: 1.941
+Seed 0, Epoch 75: Train Loss = 6.0876, Test Loss = 5.6045
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.130
+  Penult Flow: 3.809
+  Continue Flow: 19.376
+  Pattern Entropy: 1.962
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 1.916
+  Continue Flow: 9.479
+  Pattern Entropy: 1.985
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.612
+  Continue Flow: 0.000
+  Pattern Entropy: 1.960
+Seed 0, Epoch 80: Train Loss = 6.3248, Test Loss = 5.4797
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.122
+  Penult Flow: 3.171
+  Continue Flow: 21.249
+  Pattern Entropy: 1.985
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 2.325
+  Continue Flow: 11.925
+  Pattern Entropy: 1.975
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.482
+  Continue Flow: 0.000
+  Pattern Entropy: 1.919
+Seed 0, Epoch 85: Train Loss = 7.6420, Test Loss = 6.8494
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.143
+  Penult Flow: 3.481
+  Continue Flow: 21.064
+  Pattern Entropy: 1.991
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.100
+  Penult Flow: 1.154
+  Continue Flow: 12.110
+  Pattern Entropy: 1.971
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.644
+  Continue Flow: 0.000
+  Pattern Entropy: 1.976
+Seed 0, Epoch 90: Train Loss = 6.7813, Test Loss = 5.4767
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.134
+  Penult Flow: 4.017
+  Continue Flow: 24.418
+  Pattern Entropy: 1.972
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 2.120
+  Continue Flow: 12.410
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.594
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+Seed 0, Epoch 95: Train Loss = 5.5761, Test Loss = 5.3553
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.127
+  Penult Flow: 3.466
+  Continue Flow: 14.507
+  Pattern Entropy: 1.995
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.098
+  Penult Flow: 1.036
+  Continue Flow: 7.962
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.482
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 66.3693, Test Loss = 62.6211
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.480
+  Pred Error: 0.104
+  Penult Flow: 0.518
+  Continue Flow: 14.585
+  Pattern Entropy: 1.973
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 0.528
+  Continue Flow: 3.741
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.147
+  Continue Flow: 0.000
+  Pattern Entropy: 1.960
+Seed 1, Epoch 5: Train Loss = 12.0359, Test Loss = 12.2395
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.126
+  Penult Flow: 3.081
+  Continue Flow: 18.525
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 1.593
+  Continue Flow: 8.121
+  Pattern Entropy: 1.981
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.613
+  Continue Flow: 0.000
+  Pattern Entropy: 1.981
+Seed 1, Epoch 10: Train Loss = 9.7447, Test Loss = 10.6190
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 2.906
+  Continue Flow: 19.214
+  Pattern Entropy: 1.984
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.123
+  Penult Flow: 2.101
+  Continue Flow: 9.321
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.226
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+Seed 1, Epoch 15: Train Loss = 9.2122, Test Loss = 9.9700
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 3.083
+  Continue Flow: 20.487
+  Pattern Entropy: 1.957
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 2.321
+  Continue Flow: 9.859
+  Pattern Entropy: 1.962
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.077
+  Continue Flow: 0.000
+  Pattern Entropy: 1.961
+Seed 1, Epoch 20: Train Loss = 9.3991, Test Loss = 9.6888
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.129
+  Penult Flow: 3.389
+  Continue Flow: 18.858
+  Pattern Entropy: 1.970
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.119
+  Penult Flow: 2.164
+  Continue Flow: 9.476
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.020
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 1, Epoch 25: Train Loss = 8.3962, Test Loss = 9.3694
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.126
+  Penult Flow: 2.928
+  Continue Flow: 21.313
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 2.323
+  Continue Flow: 10.709
+  Pattern Entropy: 1.981
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.033
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 1, Epoch 30: Train Loss = 8.1687, Test Loss = 8.4070
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.134
+  Penult Flow: 3.500
+  Continue Flow: 15.511
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 1.794
+  Continue Flow: 7.079
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.706
+  Continue Flow: 0.000
+  Pattern Entropy: 1.996
+Seed 1, Epoch 35: Train Loss = 8.2970, Test Loss = 9.9907
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.135
+  Penult Flow: 4.271
+  Continue Flow: 19.344
+  Pattern Entropy: 1.947
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.111
+  Penult Flow: 1.866
+  Continue Flow: 9.215
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.646
+  Continue Flow: 0.000
+  Pattern Entropy: 1.972
+Seed 1, Epoch 40: Train Loss = 7.6536, Test Loss = 8.8326
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.135
+  Penult Flow: 4.126
+  Continue Flow: 18.711
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 2.113
+  Continue Flow: 8.641
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.661
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 1, Epoch 45: Train Loss = 7.9101, Test Loss = 8.6529
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.132
+  Penult Flow: 3.734
+  Continue Flow: 25.075
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 1.945
+  Continue Flow: 11.922
+  Pattern Entropy: 1.994
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.150
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 1, Epoch 50: Train Loss = 7.4800, Test Loss = 8.5246
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.132
+  Penult Flow: 3.518
+  Continue Flow: 23.993
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.110
+  Penult Flow: 1.735
+  Continue Flow: 11.688
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.320
+  Continue Flow: 0.000
+  Pattern Entropy: 1.957
+Seed 1, Epoch 55: Train Loss = 7.9796, Test Loss = 9.0868
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.131
+  Penult Flow: 3.507
+  Continue Flow: 19.925
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.112
+  Penult Flow: 1.490
+  Continue Flow: 9.752
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.419
+  Continue Flow: 0.000
+  Pattern Entropy: 1.975
+Seed 1, Epoch 60: Train Loss = 8.0699, Test Loss = 8.9863
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.129
+  Penult Flow: 3.242
+  Continue Flow: 20.690
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 1.510
+  Continue Flow: 10.807
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.245
+  Continue Flow: 0.000
+  Pattern Entropy: 1.979
+Seed 1, Epoch 65: Train Loss = 7.4793, Test Loss = 7.5823
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.127
+  Penult Flow: 3.891
+  Continue Flow: 21.935
+  Pattern Entropy: 1.950
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.106
+  Penult Flow: 1.567
+  Continue Flow: 11.580
+  Pattern Entropy: 1.989
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.946
+  Continue Flow: 0.000
+  Pattern Entropy: 1.979
+Seed 1, Epoch 70: Train Loss = 6.2777, Test Loss = 7.1668
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.130
+  Penult Flow: 3.646
+  Continue Flow: 23.228
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 1.805
+  Continue Flow: 12.292
+  Pattern Entropy: 1.985
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.303
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 1, Epoch 75: Train Loss = 6.4301, Test Loss = 6.9191
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.143
+  Penult Flow: 3.776
+  Continue Flow: 23.850
+  Pattern Entropy: 1.970
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.104
+  Penult Flow: 1.065
+  Continue Flow: 12.814
+  Pattern Entropy: 1.971
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.471
+  Continue Flow: 0.000
+  Pattern Entropy: 1.963
+Seed 1, Epoch 80: Train Loss = 5.9390, Test Loss = 7.2165
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.133
+  Penult Flow: 3.587
+  Continue Flow: 19.478
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.111
+  Penult Flow: 1.693
+  Continue Flow: 10.010
+  Pattern Entropy: 1.998
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.874
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 1, Epoch 85: Train Loss = 6.3837, Test Loss = 7.0793
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.130
+  Penult Flow: 3.677
+  Continue Flow: 20.377
+  Pattern Entropy: 1.970
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.102
+  Penult Flow: 1.729
+  Continue Flow: 10.837
+  Pattern Entropy: 1.985
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.984
+  Continue Flow: 0.000
+  Pattern Entropy: 1.968
+Seed 1, Epoch 90: Train Loss = 6.6802, Test Loss = 8.4274
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.126
+  Penult Flow: 3.546
+  Continue Flow: 19.834
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.106
+  Penult Flow: 1.937
+  Continue Flow: 10.926
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.812
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 1, Epoch 95: Train Loss = 6.3101, Test Loss = 7.3340
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.119
+  Penult Flow: 3.152
+  Continue Flow: 21.268
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.117
+  Penult Flow: 2.125
+  Continue Flow: 11.922
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.933
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 68.2620, Test Loss = 70.9413
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.112
+  Penult Flow: 0.505
+  Continue Flow: 14.251
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 0.526
+  Continue Flow: 2.751
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.151
+  Continue Flow: 0.000
+  Pattern Entropy: 1.994
+Seed 2, Epoch 5: Train Loss = 15.1893, Test Loss = 13.3216
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.134
+  Penult Flow: 3.768
+  Continue Flow: 20.818
+  Pattern Entropy: 1.974
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 2.064
+  Continue Flow: 9.339
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.936
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 2, Epoch 10: Train Loss = 10.9159, Test Loss = 11.2337
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.136
+  Penult Flow: 4.025
+  Continue Flow: 22.380
+  Pattern Entropy: 1.973
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.106
+  Penult Flow: 2.525
+  Continue Flow: 10.086
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.165
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Seed 2, Epoch 15: Train Loss = 10.4228, Test Loss = 10.6164
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.137
+  Penult Flow: 4.302
+  Continue Flow: 21.889
+  Pattern Entropy: 1.974
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.107
+  Penult Flow: 2.256
+  Continue Flow: 9.349
+  Pattern Entropy: 1.978
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.247
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 2, Epoch 20: Train Loss = 9.9288, Test Loss = 10.1109
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.134
+  Penult Flow: 4.099
+  Continue Flow: 25.699
+  Pattern Entropy: 1.941
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 2.373
+  Continue Flow: 11.577
+  Pattern Entropy: 1.967
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.281
+  Continue Flow: 0.000
+  Pattern Entropy: 1.966
+Seed 2, Epoch 25: Train Loss = 9.4573, Test Loss = 10.1216
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.136
+  Penult Flow: 3.521
+  Continue Flow: 20.755
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.109
+  Penult Flow: 2.309
+  Continue Flow: 8.197
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.773
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 2, Epoch 30: Train Loss = 8.9070, Test Loss = 9.2648
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.469
+  Pred Error: 0.147
+  Penult Flow: 4.173
+  Continue Flow: 25.150
+  Pattern Entropy: 1.951
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 2.342
+  Continue Flow: 11.986
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.562
+  Continue Flow: 0.000
+  Pattern Entropy: 1.968
+Seed 2, Epoch 35: Train Loss = 8.6088, Test Loss = 9.4194
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.149
+  Penult Flow: 3.938
+  Continue Flow: 19.485
+  Pattern Entropy: 1.974
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.106
+  Penult Flow: 2.039
+  Continue Flow: 8.503
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.338
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 2, Epoch 40: Train Loss = 7.9578, Test Loss = 8.1916
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.136
+  Penult Flow: 4.420
+  Continue Flow: 23.664
+  Pattern Entropy: 1.956
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.104
+  Penult Flow: 1.959
+  Continue Flow: 11.618
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.392
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 2, Epoch 45: Train Loss = 8.2971, Test Loss = 9.1371
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.467
+  Pred Error: 0.156
+  Penult Flow: 4.609
+  Continue Flow: 29.948
+  Pattern Entropy: 1.970
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 2.099
+  Continue Flow: 14.572
+  Pattern Entropy: 1.977
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.332
+  Continue Flow: 0.000
+  Pattern Entropy: 1.964
+Seed 2, Epoch 50: Train Loss = 8.2602, Test Loss = 7.9183
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.464
+  Pred Error: 0.165
+  Penult Flow: 4.147
+  Continue Flow: 20.055
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.097
+  Penult Flow: 1.410
+  Continue Flow: 9.471
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.361
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 2, Epoch 55: Train Loss = 7.9717, Test Loss = 7.7921
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.141
+  Penult Flow: 4.105
+  Continue Flow: 26.702
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.097
+  Penult Flow: 1.609
+  Continue Flow: 12.976
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.588
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+Seed 2, Epoch 60: Train Loss = 7.9717, Test Loss = 7.7060
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.462
+  Pred Error: 0.173
+  Penult Flow: 3.920
+  Continue Flow: 25.177
+  Pattern Entropy: 1.970
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.107
+  Penult Flow: 2.068
+  Continue Flow: 12.155
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.089
+  Continue Flow: 0.000
+  Pattern Entropy: 1.994
+Seed 2, Epoch 65: Train Loss = 7.8414, Test Loss = 7.7894
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.464
+  Pred Error: 0.166
+  Penult Flow: 4.096
+  Continue Flow: 26.443
+  Pattern Entropy: 1.957
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.089
+  Penult Flow: 0.745
+  Continue Flow: 12.611
+  Pattern Entropy: 1.962
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.056
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 2, Epoch 70: Train Loss = 7.5867, Test Loss = 7.2724
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.138
+  Penult Flow: 3.839
+  Continue Flow: 17.260
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 1.598
+  Continue Flow: 8.693
+  Pattern Entropy: 1.997
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.980
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 2, Epoch 75: Train Loss = 6.9293, Test Loss = 6.6280
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.463
+  Pred Error: 0.170
+  Penult Flow: 4.272
+  Continue Flow: 18.714
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.094
+  Penult Flow: 1.425
+  Continue Flow: 8.965
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.048
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 2, Epoch 80: Train Loss = 7.1985, Test Loss = 6.7151
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.152
+  Penult Flow: 3.708
+  Continue Flow: 22.926
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.111
+  Penult Flow: 2.329
+  Continue Flow: 11.875
+  Pattern Entropy: 1.978
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.433
+  Continue Flow: 0.000
+  Pattern Entropy: 1.995
+Seed 2, Epoch 85: Train Loss = 6.5758, Test Loss = 7.1100
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.464
+  Pred Error: 0.165
+  Penult Flow: 4.187
+  Continue Flow: 27.017
+  Pattern Entropy: 1.977
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.095
+  Penult Flow: 1.631
+  Continue Flow: 14.306
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.567
+  Continue Flow: 0.000
+  Pattern Entropy: 1.980
+Seed 2, Epoch 90: Train Loss = 6.7527, Test Loss = 6.7629
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.143
+  Penult Flow: 4.173
+  Continue Flow: 26.006
+  Pattern Entropy: 1.974
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.104
+  Penult Flow: 2.457
+  Continue Flow: 14.775
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.495
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 2, Epoch 95: Train Loss = 6.3343, Test Loss = 6.4223
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.464
+  Pred Error: 0.166
+  Penult Flow: 4.261
+  Continue Flow: 25.843
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.098
+  Penult Flow: 1.622
+  Continue Flow: 13.279
+  Pattern Entropy: 1.977
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.070
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 68.4154, Test Loss = 58.7064
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.093
+  Penult Flow: 0.564
+  Continue Flow: 11.539
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.082
+  Penult Flow: 0.413
+  Continue Flow: 2.542
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.202
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 3, Epoch 5: Train Loss = 14.3071, Test Loss = 11.1091
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.119
+  Penult Flow: 3.646
+  Continue Flow: 21.780
+  Pattern Entropy: 1.948
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 2.100
+  Continue Flow: 13.157
+  Pattern Entropy: 1.913
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.608
+  Continue Flow: 0.000
+  Pattern Entropy: 1.953
+Seed 3, Epoch 10: Train Loss = 10.4769, Test Loss = 9.6886
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 3.268
+  Continue Flow: 20.801
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.093
+  Penult Flow: 2.334
+  Continue Flow: 12.595
+  Pattern Entropy: 1.959
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.462
+  Continue Flow: 0.000
+  Pattern Entropy: 1.960
+Seed 3, Epoch 15: Train Loss = 10.0102, Test Loss = 8.2043
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 3.312
+  Continue Flow: 26.044
+  Pattern Entropy: 1.962
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 2.393
+  Continue Flow: 16.601
+  Pattern Entropy: 1.950
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.473
+  Continue Flow: 0.000
+  Pattern Entropy: 1.960
+Seed 3, Epoch 20: Train Loss = 9.3609, Test Loss = 9.7593
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 3.245
+  Continue Flow: 20.861
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 2.153
+  Continue Flow: 12.860
+  Pattern Entropy: 1.967
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.334
+  Continue Flow: 0.000
+  Pattern Entropy: 1.952
+Seed 3, Epoch 25: Train Loss = 9.5630, Test Loss = 8.4234
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 3.408
+  Continue Flow: 21.117
+  Pattern Entropy: 1.952
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.086
+  Penult Flow: 2.096
+  Continue Flow: 13.331
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.168
+  Continue Flow: 0.000
+  Pattern Entropy: 1.972
+Seed 3, Epoch 30: Train Loss = 9.2843, Test Loss = 8.5979
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 3.493
+  Continue Flow: 23.063
+  Pattern Entropy: 1.985
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.101
+  Penult Flow: 2.257
+  Continue Flow: 12.232
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.886
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 3, Epoch 35: Train Loss = 8.4250, Test Loss = 7.8818
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 3.731
+  Continue Flow: 20.331
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.093
+  Penult Flow: 2.200
+  Continue Flow: 11.772
+  Pattern Entropy: 1.985
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.274
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 3, Epoch 40: Train Loss = 9.1171, Test Loss = 6.5359
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 3.013
+  Continue Flow: 16.953
+  Pattern Entropy: 1.994
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 1.885
+  Continue Flow: 10.638
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.447
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 3, Epoch 45: Train Loss = 7.8662, Test Loss = 10.3228
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.122
+  Penult Flow: 3.609
+  Continue Flow: 17.489
+  Pattern Entropy: 1.984
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.097
+  Penult Flow: 1.946
+  Continue Flow: 10.852
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.419
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 3, Epoch 50: Train Loss = 8.4863, Test Loss = 7.6890
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 3.655
+  Continue Flow: 21.036
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 1.422
+  Continue Flow: 12.859
+  Pattern Entropy: 1.974
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.725
+  Continue Flow: 0.000
+  Pattern Entropy: 1.979
+Seed 3, Epoch 55: Train Loss = 7.2112, Test Loss = 6.8151
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.118
+  Penult Flow: 3.257
+  Continue Flow: 25.838
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 1.928
+  Continue Flow: 16.438
+  Pattern Entropy: 1.980
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.693
+  Continue Flow: 0.000
+  Pattern Entropy: 1.950
+Seed 3, Epoch 60: Train Loss = 7.2058, Test Loss = 6.1495
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.111
+  Penult Flow: 3.275
+  Continue Flow: 20.348
+  Pattern Entropy: 1.983
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.092
+  Penult Flow: 1.891
+  Continue Flow: 13.374
+  Pattern Entropy: 1.992
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.460
+  Continue Flow: 0.000
+  Pattern Entropy: 1.971
+Seed 3, Epoch 65: Train Loss = 6.6787, Test Loss = 5.6308
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 3.690
+  Continue Flow: 16.243
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.094
+  Penult Flow: 1.589
+  Continue Flow: 10.338
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.315
+  Continue Flow: 0.000
+  Pattern Entropy: 1.974
+Seed 3, Epoch 70: Train Loss = 6.3396, Test Loss = 4.9056
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.124
+  Penult Flow: 3.518
+  Continue Flow: 23.738
+  Pattern Entropy: 1.971
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 1.691
+  Continue Flow: 16.061
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.736
+  Continue Flow: 0.000
+  Pattern Entropy: 1.939
+Seed 3, Epoch 75: Train Loss = 6.2835, Test Loss = 4.8600
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.118
+  Penult Flow: 3.514
+  Continue Flow: 20.511
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.092
+  Penult Flow: 1.563
+  Continue Flow: 13.007
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.244
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 3, Epoch 80: Train Loss = 6.0418, Test Loss = 6.4773
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 3.058
+  Continue Flow: 15.233
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 1.344
+  Continue Flow: 9.695
+  Pattern Entropy: 1.978
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.207
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 3, Epoch 85: Train Loss = 5.7999, Test Loss = 5.1799
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.125
+  Penult Flow: 3.650
+  Continue Flow: 23.082
+  Pattern Entropy: 1.977
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.092
+  Penult Flow: 1.334
+  Continue Flow: 14.620
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.465
+  Continue Flow: 0.000
+  Pattern Entropy: 1.965
+Seed 3, Epoch 90: Train Loss = 6.4439, Test Loss = 5.8565
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.141
+  Penult Flow: 4.302
+  Continue Flow: 20.054
+  Pattern Entropy: 1.984
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.087
+  Penult Flow: 0.937
+  Continue Flow: 12.872
+  Pattern Entropy: 1.974
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.404
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 3, Epoch 95: Train Loss = 6.6124, Test Loss = 4.8212
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.125
+  Penult Flow: 3.537
+  Continue Flow: 16.984
+  Pattern Entropy: 1.986
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 1.132
+  Continue Flow: 10.073
+  Pattern Entropy: 1.964
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.981
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 66.6544, Test Loss = 70.9267
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.079
+  Penult Flow: 0.677
+  Continue Flow: 14.261
+  Pattern Entropy: 1.962
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.101
+  Penult Flow: 0.486
+  Continue Flow: 3.153
+  Pattern Entropy: 1.994
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.316
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 4, Epoch 5: Train Loss = 12.6015, Test Loss = 16.3116
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.117
+  Penult Flow: 3.616
+  Continue Flow: 21.819
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 2.243
+  Continue Flow: 9.755
+  Pattern Entropy: 1.964
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.849
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 4, Epoch 10: Train Loss = 10.0263, Test Loss = 8.8411
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.113
+  Penult Flow: 3.610
+  Continue Flow: 20.470
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.112
+  Penult Flow: 1.995
+  Continue Flow: 10.209
+  Pattern Entropy: 1.985
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.165
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 4, Epoch 15: Train Loss = 9.0246, Test Loss = 9.9465
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 3.570
+  Continue Flow: 23.656
+  Pattern Entropy: 1.977
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 2.022
+  Continue Flow: 10.865
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.249
+  Continue Flow: 0.000
+  Pattern Entropy: 1.973
+Seed 4, Epoch 20: Train Loss = 8.9286, Test Loss = 10.2786
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.479
+  Pred Error: 0.110
+  Penult Flow: 3.981
+  Continue Flow: 17.046
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.105
+  Penult Flow: 1.899
+  Continue Flow: 8.282
+  Pattern Entropy: 1.981
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.136
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 4, Epoch 25: Train Loss = 8.3644, Test Loss = 8.4214
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.099
+  Penult Flow: 3.577
+  Continue Flow: 22.191
+  Pattern Entropy: 1.970
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 1.543
+  Continue Flow: 11.722
+  Pattern Entropy: 1.996
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.291
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 4, Epoch 30: Train Loss = 8.4662, Test Loss = 10.0604
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 3.968
+  Continue Flow: 19.681
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.111
+  Penult Flow: 2.054
+  Continue Flow: 9.640
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.104
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 4, Epoch 35: Train Loss = 7.7079, Test Loss = 7.5126
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.123
+  Penult Flow: 3.432
+  Continue Flow: 14.336
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 1.653
+  Continue Flow: 8.124
+  Pattern Entropy: 1.995
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.103
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 4, Epoch 40: Train Loss = 9.2610, Test Loss = 9.1304
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.480
+  Pred Error: 0.104
+  Penult Flow: 3.176
+  Continue Flow: 19.165
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 1.934
+  Continue Flow: 10.534
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.579
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 4, Epoch 45: Train Loss = 8.6145, Test Loss = 7.4308
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.101
+  Penult Flow: 3.342
+  Continue Flow: 17.092
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 2.065
+  Continue Flow: 9.573
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.819
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 4, Epoch 50: Train Loss = 7.6373, Test Loss = 7.7543
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.101
+  Penult Flow: 3.366
+  Continue Flow: 24.859
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.103
+  Penult Flow: 1.227
+  Continue Flow: 13.668
+  Pattern Entropy: 1.996
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.232
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 4, Epoch 55: Train Loss = 7.5306, Test Loss = 7.6039
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.101
+  Penult Flow: 2.962
+  Continue Flow: 27.842
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.107
+  Penult Flow: 1.664
+  Continue Flow: 15.768
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.972
+  Continue Flow: 0.000
+  Pattern Entropy: 1.976
+Seed 4, Epoch 60: Train Loss = 7.6004, Test Loss = 8.0709
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.102
+  Penult Flow: 2.696
+  Continue Flow: 15.691
+  Pattern Entropy: 1.985
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.089
+  Penult Flow: 0.774
+  Continue Flow: 8.979
+  Pattern Entropy: 1.954
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.697
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 4, Epoch 65: Train Loss = 7.6499, Test Loss = 7.2421
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.102
+  Penult Flow: 2.840
+  Continue Flow: 18.614
+  Pattern Entropy: 1.966
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.093
+  Penult Flow: 1.013
+  Continue Flow: 11.562
+  Pattern Entropy: 1.970
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.818
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Seed 4, Epoch 70: Train Loss = 6.5360, Test Loss = 7.1914
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.480
+  Pred Error: 0.106
+  Penult Flow: 3.411
+  Continue Flow: 17.619
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.102
+  Penult Flow: 1.490
+  Continue Flow: 10.594
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.771
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 4, Epoch 75: Train Loss = 6.8443, Test Loss = 6.0483
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.114
+  Penult Flow: 3.637
+  Continue Flow: 15.467
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 1.284
+  Continue Flow: 9.371
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.369
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 4, Epoch 80: Train Loss = 7.0365, Test Loss = 8.4446
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.479
+  Pred Error: 0.110
+  Penult Flow: 3.571
+  Continue Flow: 24.283
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.097
+  Penult Flow: 1.320
+  Continue Flow: 13.234
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.162
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 4, Epoch 85: Train Loss = 6.5321, Test Loss = 7.9267
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.113
+  Penult Flow: 3.581
+  Continue Flow: 17.483
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.102
+  Penult Flow: 1.272
+  Continue Flow: 9.448
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.999
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 4, Epoch 90: Train Loss = 6.2463, Test Loss = 5.4998
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.112
+  Penult Flow: 3.560
+  Continue Flow: 20.197
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 1.783
+  Continue Flow: 12.441
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.296
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 4, Epoch 95: Train Loss = 6.6840, Test Loss = 7.2414
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.118
+  Penult Flow: 4.723
+  Continue Flow: 24.836
+  Pattern Entropy: 1.969
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 1.155
+  Continue Flow: 13.014
+  Pattern Entropy: 1.962
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.570
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Completed lorenz experiments successfully
+Standard: 0.0207 ± 0.0044
+Predictive: 5.7252 ± 1.1177
+p-value: 0.0000
+
+Running experiments for memory data...
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 1.0051, Test Loss = 0.9987
+Seed 0, Epoch 5: Train Loss = 0.9473, Test Loss = 1.0078
+Seed 0, Epoch 10: Train Loss = 0.7661, Test Loss = 1.1168
+Seed 0, Epoch 15: Train Loss = 0.5125, Test Loss = 1.3186
+Seed 0, Epoch 20: Train Loss = 0.3020, Test Loss = 1.4921
+Seed 0, Epoch 25: Train Loss = 0.1767, Test Loss = 1.7143
+Seed 0, Epoch 30: Train Loss = 0.1027, Test Loss = 1.7397
+Seed 0, Epoch 35: Train Loss = 0.0534, Test Loss = 1.8858
+Seed 0, Epoch 40: Train Loss = 0.0289, Test Loss = 1.9528
+Seed 0, Epoch 45: Train Loss = 0.0177, Test Loss = 1.9574
+Seed 0, Epoch 50: Train Loss = 0.0104, Test Loss = 2.0023
+Seed 0, Epoch 55: Train Loss = 0.0063, Test Loss = 2.0182
+Seed 0, Epoch 60: Train Loss = 0.0045, Test Loss = 2.0138
+Seed 0, Epoch 65: Train Loss = 0.0026, Test Loss = 2.0300
+Seed 0, Epoch 70: Train Loss = 0.0014, Test Loss = 2.0342
+Seed 0, Epoch 75: Train Loss = 0.0011, Test Loss = 2.0272
+Seed 0, Epoch 80: Train Loss = 0.0008, Test Loss = 2.0279
+Seed 0, Epoch 85: Train Loss = 0.0010, Test Loss = 2.0329
+Seed 0, Epoch 90: Train Loss = 0.0008, Test Loss = 2.0268
+Seed 0, Epoch 95: Train Loss = 0.0013, Test Loss = 2.0385
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 1.0211, Test Loss = 1.0164
+Seed 1, Epoch 5: Train Loss = 0.9330, Test Loss = 1.0273
+Seed 1, Epoch 10: Train Loss = 0.7325, Test Loss = 1.1721
+Seed 1, Epoch 15: Train Loss = 0.4874, Test Loss = 1.3506
+Seed 1, Epoch 20: Train Loss = 0.3234, Test Loss = 1.4897
+Seed 1, Epoch 25: Train Loss = 0.2101, Test Loss = 1.5073
+Seed 1, Epoch 30: Train Loss = 0.1141, Test Loss = 1.5989
+Seed 1, Epoch 35: Train Loss = 0.0655, Test Loss = 1.6243
+Seed 1, Epoch 40: Train Loss = 0.0421, Test Loss = 1.6580
+Seed 1, Epoch 45: Train Loss = 0.0215, Test Loss = 1.7243
+Seed 1, Epoch 50: Train Loss = 0.0133, Test Loss = 1.7225
+Seed 1, Epoch 55: Train Loss = 0.0086, Test Loss = 1.7416
+Seed 1, Epoch 60: Train Loss = 0.0052, Test Loss = 1.7527
+Seed 1, Epoch 65: Train Loss = 0.0034, Test Loss = 1.7484
+Seed 1, Epoch 70: Train Loss = 0.0018, Test Loss = 1.7469
+Seed 1, Epoch 75: Train Loss = 0.0015, Test Loss = 1.7631
+Seed 1, Epoch 80: Train Loss = 0.0009, Test Loss = 1.7599
+Seed 1, Epoch 85: Train Loss = 0.0012, Test Loss = 1.7548
+Seed 1, Epoch 90: Train Loss = 0.0011, Test Loss = 1.7507
+Seed 1, Epoch 95: Train Loss = 0.0044, Test Loss = 1.7574
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 1.0131, Test Loss = 1.0169
+Seed 2, Epoch 5: Train Loss = 0.9175, Test Loss = 1.0811
+Seed 2, Epoch 10: Train Loss = 0.7662, Test Loss = 1.1725
+Seed 2, Epoch 15: Train Loss = 0.5315, Test Loss = 1.3059
+Seed 2, Epoch 20: Train Loss = 0.3470, Test Loss = 1.4503
+Seed 2, Epoch 25: Train Loss = 0.2242, Test Loss = 1.5181
+Seed 2, Epoch 30: Train Loss = 0.1348, Test Loss = 1.6115
+Seed 2, Epoch 35: Train Loss = 0.0759, Test Loss = 1.7014
+Seed 2, Epoch 40: Train Loss = 0.0499, Test Loss = 1.7277
+Seed 2, Epoch 45: Train Loss = 0.0315, Test Loss = 1.6892
+Seed 2, Epoch 50: Train Loss = 0.0188, Test Loss = 1.7321
+Seed 2, Epoch 55: Train Loss = 0.0136, Test Loss = 1.7360
+Seed 2, Epoch 60: Train Loss = 0.0092, Test Loss = 1.7187
+Seed 2, Epoch 65: Train Loss = 0.0052, Test Loss = 1.7123
+Seed 2, Epoch 70: Train Loss = 0.0034, Test Loss = 1.7171
+Seed 2, Epoch 75: Train Loss = 0.0026, Test Loss = 1.7196
+Seed 2, Epoch 80: Train Loss = 0.0015, Test Loss = 1.7189
+Seed 2, Epoch 85: Train Loss = 0.0011, Test Loss = 1.7360
+Seed 2, Epoch 90: Train Loss = 0.0009, Test Loss = 1.7379
+Seed 2, Epoch 95: Train Loss = 0.0006, Test Loss = 1.7313
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 0.9997, Test Loss = 1.0201
+Seed 3, Epoch 5: Train Loss = 0.9398, Test Loss = 1.0342
+Seed 3, Epoch 10: Train Loss = 0.7720, Test Loss = 1.0337
+Seed 3, Epoch 15: Train Loss = 0.5398, Test Loss = 1.0419
+Seed 3, Epoch 20: Train Loss = 0.3388, Test Loss = 1.1198
+Seed 3, Epoch 25: Train Loss = 0.1917, Test Loss = 1.2482
+Seed 3, Epoch 30: Train Loss = 0.1066, Test Loss = 1.3642
+Seed 3, Epoch 35: Train Loss = 0.0652, Test Loss = 1.4340
+Seed 3, Epoch 40: Train Loss = 0.0393, Test Loss = 1.5081
+Seed 3, Epoch 45: Train Loss = 0.0221, Test Loss = 1.5480
+Seed 3, Epoch 50: Train Loss = 0.0135, Test Loss = 1.5548
+Seed 3, Epoch 55: Train Loss = 0.0077, Test Loss = 1.5744
+Seed 3, Epoch 60: Train Loss = 0.0054, Test Loss = 1.6013
+Seed 3, Epoch 65: Train Loss = 0.0034, Test Loss = 1.5978
+Seed 3, Epoch 70: Train Loss = 0.0024, Test Loss = 1.6116
+Seed 3, Epoch 75: Train Loss = 0.0022, Test Loss = 1.6311
+Seed 3, Epoch 80: Train Loss = 0.0013, Test Loss = 1.6246
+Seed 3, Epoch 85: Train Loss = 0.0011, Test Loss = 1.6349
+Seed 3, Epoch 90: Train Loss = 0.0008, Test Loss = 1.6413
+Seed 3, Epoch 95: Train Loss = 0.0009, Test Loss = 1.6475
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 1.0357, Test Loss = 0.9936
+Seed 4, Epoch 5: Train Loss = 0.9474, Test Loss = 1.0357
+Seed 4, Epoch 10: Train Loss = 0.8522, Test Loss = 1.0919
+Seed 4, Epoch 15: Train Loss = 0.6646, Test Loss = 1.2063
+Seed 4, Epoch 20: Train Loss = 0.4285, Test Loss = 1.3615
+Seed 4, Epoch 25: Train Loss = 0.2573, Test Loss = 1.5006
+Seed 4, Epoch 30: Train Loss = 0.1513, Test Loss = 1.5847
+Seed 4, Epoch 35: Train Loss = 0.0901, Test Loss = 1.6157
+Seed 4, Epoch 40: Train Loss = 0.0536, Test Loss = 1.7094
+Seed 4, Epoch 45: Train Loss = 0.0325, Test Loss = 1.7509
+Seed 4, Epoch 50: Train Loss = 0.0222, Test Loss = 1.7615
+Seed 4, Epoch 55: Train Loss = 0.0138, Test Loss = 1.7821
+Seed 4, Epoch 60: Train Loss = 0.0086, Test Loss = 1.7926
+Seed 4, Epoch 65: Train Loss = 0.0059, Test Loss = 1.8105
+Seed 4, Epoch 70: Train Loss = 0.0037, Test Loss = 1.8265
+Seed 4, Epoch 75: Train Loss = 0.0021, Test Loss = 1.8428
+Seed 4, Epoch 80: Train Loss = 0.0018, Test Loss = 1.8262
+Seed 4, Epoch 85: Train Loss = 0.0012, Test Loss = 1.8503
+Seed 4, Epoch 90: Train Loss = 0.0013, Test Loss = 1.8615
+Seed 4, Epoch 95: Train Loss = 0.0037, Test Loss = 1.8343
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 1.0114, Test Loss = 1.0050
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.094
+  Penult Flow: 0.292
+  Continue Flow: 1.667
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 0.388
+  Continue Flow: 0.301
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.133
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 0, Epoch 5: Train Loss = 1.0048, Test Loss = 1.0047
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.092
+  Penult Flow: 0.287
+  Continue Flow: 1.874
+  Pattern Entropy: 1.995
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 0.385
+  Continue Flow: 0.385
+  Pattern Entropy: 1.996
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.171
+  Continue Flow: 0.000
+  Pattern Entropy: 1.994
+Seed 0, Epoch 10: Train Loss = 1.0078, Test Loss = 1.0018
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.092
+  Penult Flow: 0.289
+  Continue Flow: 1.850
+  Pattern Entropy: 1.994
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 0.367
+  Continue Flow: 0.385
+  Pattern Entropy: 1.989
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.061
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 0, Epoch 15: Train Loss = 1.0000, Test Loss = 1.0051
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.092
+  Penult Flow: 0.288
+  Continue Flow: 1.780
+  Pattern Entropy: 1.992
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 0.359
+  Continue Flow: 0.389
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.164
+  Continue Flow: 0.000
+  Pattern Entropy: 1.998
+Seed 0, Epoch 20: Train Loss = 0.9946, Test Loss = 1.0193
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.089
+  Penult Flow: 0.319
+  Continue Flow: 1.844
+  Pattern Entropy: 1.995
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.352
+  Continue Flow: 0.472
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.009
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 0, Epoch 25: Train Loss = 0.9996, Test Loss = 1.0016
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.088
+  Penult Flow: 0.328
+  Continue Flow: 1.992
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 0.346
+  Continue Flow: 0.580
+  Pattern Entropy: 1.994
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.084
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 0, Epoch 30: Train Loss = 0.9859, Test Loss = 0.9865
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.093
+  Penult Flow: 0.405
+  Continue Flow: 1.983
+  Pattern Entropy: 1.994
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.078
+  Penult Flow: 0.367
+  Continue Flow: 0.805
+  Pattern Entropy: 1.966
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.109
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 0, Epoch 35: Train Loss = 0.9725, Test Loss = 1.0632
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 0.378
+  Continue Flow: 2.133
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.081
+  Penult Flow: 0.398
+  Continue Flow: 1.104
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.088
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 0, Epoch 40: Train Loss = 0.9356, Test Loss = 1.0666
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 0.403
+  Continue Flow: 2.047
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 0.501
+  Continue Flow: 1.204
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.080
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 0, Epoch 45: Train Loss = 0.9283, Test Loss = 1.0894
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.077
+  Penult Flow: 0.402
+  Continue Flow: 2.242
+  Pattern Entropy: 1.944
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.480
+  Continue Flow: 1.479
+  Pattern Entropy: 1.998
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.141
+  Continue Flow: 0.000
+  Pattern Entropy: 1.969
+Seed 0, Epoch 50: Train Loss = 0.9341, Test Loss = 1.1141
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.081
+  Penult Flow: 0.394
+  Continue Flow: 2.196
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.549
+  Continue Flow: 1.276
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.980
+  Continue Flow: 0.000
+  Pattern Entropy: 1.980
+Seed 0, Epoch 55: Train Loss = 0.9194, Test Loss = 1.1817
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.078
+  Penult Flow: 0.384
+  Continue Flow: 2.413
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.079
+  Penult Flow: 0.637
+  Continue Flow: 1.781
+  Pattern Entropy: 1.966
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.096
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 0, Epoch 60: Train Loss = 0.8818, Test Loss = 1.1746
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.076
+  Penult Flow: 0.402
+  Continue Flow: 2.157
+  Pattern Entropy: 1.974
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.077
+  Penult Flow: 0.627
+  Continue Flow: 1.586
+  Pattern Entropy: 1.985
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.030
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 0, Epoch 65: Train Loss = 0.8654, Test Loss = 1.2269
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.363
+  Continue Flow: 2.153
+  Pattern Entropy: 1.956
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.662
+  Continue Flow: 1.535
+  Pattern Entropy: 1.964
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.990
+  Continue Flow: 0.000
+  Pattern Entropy: 1.970
+Seed 0, Epoch 70: Train Loss = 0.8300, Test Loss = 1.2049
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.335
+  Continue Flow: 2.299
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.647
+  Continue Flow: 1.768
+  Pattern Entropy: 1.972
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.111
+  Continue Flow: 0.000
+  Pattern Entropy: 1.966
+Seed 0, Epoch 75: Train Loss = 0.8419, Test Loss = 1.1705
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.076
+  Penult Flow: 0.318
+  Continue Flow: 2.265
+  Pattern Entropy: 1.977
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.664
+  Continue Flow: 1.566
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.092
+  Continue Flow: 0.000
+  Pattern Entropy: 1.968
+Seed 0, Epoch 80: Train Loss = 0.7864, Test Loss = 1.2659
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.081
+  Penult Flow: 0.323
+  Continue Flow: 2.339
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.070
+  Penult Flow: 0.705
+  Continue Flow: 1.688
+  Pattern Entropy: 1.981
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.126
+  Continue Flow: 0.000
+  Pattern Entropy: 1.970
+Seed 0, Epoch 85: Train Loss = 0.7903, Test Loss = 1.2760
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.079
+  Penult Flow: 0.328
+  Continue Flow: 2.256
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.071
+  Penult Flow: 0.678
+  Continue Flow: 1.607
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.151
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Seed 0, Epoch 90: Train Loss = 0.7483, Test Loss = 1.2404
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.342
+  Continue Flow: 2.386
+  Pattern Entropy: 1.972
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.068
+  Penult Flow: 0.715
+  Continue Flow: 1.850
+  Pattern Entropy: 1.958
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.088
+  Continue Flow: 0.000
+  Pattern Entropy: 1.962
+Seed 0, Epoch 95: Train Loss = 0.7336, Test Loss = 1.2555
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.312
+  Continue Flow: 2.370
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.066
+  Penult Flow: 0.710
+  Continue Flow: 1.734
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.107
+  Continue Flow: 0.000
+  Pattern Entropy: 1.948
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 1.0049, Test Loss = 1.0140
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.480
+  Pred Error: 0.103
+  Penult Flow: 0.271
+  Continue Flow: 1.819
+  Pattern Entropy: 1.996
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.098
+  Penult Flow: 0.402
+  Continue Flow: 0.345
+  Pattern Entropy: 1.996
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.081
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 1, Epoch 5: Train Loss = 1.0053, Test Loss = 1.0060
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.095
+  Penult Flow: 0.261
+  Continue Flow: 1.751
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.088
+  Penult Flow: 0.379
+  Continue Flow: 0.369
+  Pattern Entropy: 1.980
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.080
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 1, Epoch 10: Train Loss = 0.9989, Test Loss = 1.0096
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.482
+  Pred Error: 0.095
+  Penult Flow: 0.278
+  Continue Flow: 1.764
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 0.383
+  Continue Flow: 0.374
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.029
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 1, Epoch 15: Train Loss = 1.0034, Test Loss = 1.0090
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 0.272
+  Continue Flow: 1.688
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 0.387
+  Continue Flow: 0.429
+  Pattern Entropy: 1.996
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.046
+  Continue Flow: 0.000
+  Pattern Entropy: 1.995
+Seed 1, Epoch 20: Train Loss = 1.0055, Test Loss = 1.0091
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.278
+  Continue Flow: 1.779
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.083
+  Penult Flow: 0.367
+  Continue Flow: 0.410
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.012
+  Continue Flow: 0.000
+  Pattern Entropy: 1.998
+Seed 1, Epoch 25: Train Loss = 0.9962, Test Loss = 1.0354
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.278
+  Continue Flow: 1.849
+  Pattern Entropy: 1.995
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.083
+  Penult Flow: 0.329
+  Continue Flow: 0.496
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.970
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 1, Epoch 30: Train Loss = 0.9969, Test Loss = 1.0119
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.089
+  Penult Flow: 0.310
+  Continue Flow: 2.034
+  Pattern Entropy: 1.986
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.357
+  Continue Flow: 0.691
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.076
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 1, Epoch 35: Train Loss = 0.9727, Test Loss = 0.9854
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 0.383
+  Continue Flow: 2.103
+  Pattern Entropy: 1.984
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.082
+  Penult Flow: 0.365
+  Continue Flow: 0.951
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.951
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 1, Epoch 40: Train Loss = 0.9805, Test Loss = 0.9933
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 0.371
+  Continue Flow: 2.126
+  Pattern Entropy: 1.989
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.079
+  Penult Flow: 0.352
+  Continue Flow: 1.170
+  Pattern Entropy: 1.987
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.044
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 1, Epoch 45: Train Loss = 0.9526, Test Loss = 1.0041
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 0.344
+  Continue Flow: 2.197
+  Pattern Entropy: 1.989
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.077
+  Penult Flow: 0.408
+  Continue Flow: 1.351
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.013
+  Continue Flow: 0.000
+  Pattern Entropy: 1.994
+Seed 1, Epoch 50: Train Loss = 0.9464, Test Loss = 1.0563
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 0.336
+  Continue Flow: 2.163
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.076
+  Penult Flow: 0.385
+  Continue Flow: 1.370
+  Pattern Entropy: 1.974
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.077
+  Continue Flow: 0.000
+  Pattern Entropy: 1.970
+Seed 1, Epoch 55: Train Loss = 0.9187, Test Loss = 1.0681
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 0.311
+  Continue Flow: 2.388
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.076
+  Penult Flow: 0.483
+  Continue Flow: 1.699
+  Pattern Entropy: 1.971
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.102
+  Continue Flow: 0.000
+  Pattern Entropy: 1.967
+Seed 1, Epoch 60: Train Loss = 0.9061, Test Loss = 1.0811
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.086
+  Penult Flow: 0.299
+  Continue Flow: 2.310
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.465
+  Continue Flow: 1.540
+  Pattern Entropy: 1.977
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.083
+  Continue Flow: 0.000
+  Pattern Entropy: 1.975
+Seed 1, Epoch 65: Train Loss = 0.8646, Test Loss = 1.1395
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.086
+  Penult Flow: 0.301
+  Continue Flow: 2.252
+  Pattern Entropy: 1.993
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.075
+  Penult Flow: 0.515
+  Continue Flow: 1.489
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.110
+  Continue Flow: 0.000
+  Pattern Entropy: 1.980
+Seed 1, Epoch 70: Train Loss = 0.8118, Test Loss = 1.1712
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.298
+  Continue Flow: 2.406
+  Pattern Entropy: 1.972
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.564
+  Continue Flow: 1.903
+  Pattern Entropy: 1.965
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.218
+  Continue Flow: 0.000
+  Pattern Entropy: 1.940
+Seed 1, Epoch 75: Train Loss = 0.8132, Test Loss = 1.2543
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 0.296
+  Continue Flow: 2.442
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.602
+  Continue Flow: 1.879
+  Pattern Entropy: 1.986
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.141
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 1, Epoch 80: Train Loss = 0.7733, Test Loss = 1.3109
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.283
+  Continue Flow: 2.319
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.071
+  Penult Flow: 0.555
+  Continue Flow: 1.646
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.231
+  Continue Flow: 0.000
+  Pattern Entropy: 1.976
+Seed 1, Epoch 85: Train Loss = 0.7786, Test Loss = 1.2821
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.086
+  Penult Flow: 0.283
+  Continue Flow: 2.218
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.071
+  Penult Flow: 0.596
+  Continue Flow: 1.646
+  Pattern Entropy: 1.977
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.180
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 1, Epoch 90: Train Loss = 0.7377, Test Loss = 1.2235
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.077
+  Penult Flow: 0.286
+  Continue Flow: 2.425
+  Pattern Entropy: 1.983
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.066
+  Penult Flow: 0.478
+  Continue Flow: 1.956
+  Pattern Entropy: 1.966
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.364
+  Continue Flow: 0.000
+  Pattern Entropy: 1.966
+Seed 1, Epoch 95: Train Loss = 0.7552, Test Loss = 1.1807
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.278
+  Continue Flow: 2.451
+  Pattern Entropy: 1.989
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.067
+  Penult Flow: 0.478
+  Continue Flow: 1.966
+  Pattern Entropy: 1.962
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.357
+  Continue Flow: 0.000
+  Pattern Entropy: 1.968
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 1.0029, Test Loss = 0.9958
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.113
+  Penult Flow: 0.280
+  Continue Flow: 1.745
+  Pattern Entropy: 1.993
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 0.384
+  Continue Flow: 0.290
+  Pattern Entropy: 1.999
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.077
+  Continue Flow: 0.000
+  Pattern Entropy: 1.996
+Seed 2, Epoch 5: Train Loss = 1.0028, Test Loss = 1.0015
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.479
+  Pred Error: 0.110
+  Penult Flow: 0.294
+  Continue Flow: 1.765
+  Pattern Entropy: 1.993
+Layer 1:
+  Confidence: 0.484
+  Pred Error: 0.088
+  Penult Flow: 0.390
+  Continue Flow: 0.440
+  Pattern Entropy: 1.995
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.090
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 2, Epoch 10: Train Loss = 0.9980, Test Loss = 1.0015
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.480
+  Pred Error: 0.103
+  Penult Flow: 0.287
+  Continue Flow: 1.779
+  Pattern Entropy: 1.984
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.078
+  Penult Flow: 0.358
+  Continue Flow: 0.404
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.044
+  Continue Flow: 0.000
+  Pattern Entropy: 1.997
+Seed 2, Epoch 15: Train Loss = 0.9952, Test Loss = 1.0121
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.480
+  Pred Error: 0.105
+  Penult Flow: 0.279
+  Continue Flow: 1.853
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.344
+  Continue Flow: 0.447
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.063
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 2, Epoch 20: Train Loss = 0.9912, Test Loss = 1.0271
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.480
+  Pred Error: 0.103
+  Penult Flow: 0.392
+  Continue Flow: 2.031
+  Pattern Entropy: 1.986
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.074
+  Penult Flow: 0.346
+  Continue Flow: 0.580
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.032
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 2, Epoch 25: Train Loss = 0.9811, Test Loss = 1.0254
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.099
+  Penult Flow: 0.438
+  Continue Flow: 1.843
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.074
+  Penult Flow: 0.332
+  Continue Flow: 0.538
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.033
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 2, Epoch 30: Train Loss = 0.9723, Test Loss = 1.0291
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 0.409
+  Continue Flow: 2.007
+  Pattern Entropy: 1.993
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.337
+  Continue Flow: 0.910
+  Pattern Entropy: 1.998
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.001
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 2, Epoch 35: Train Loss = 0.9390, Test Loss = 1.1310
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.482
+  Pred Error: 0.095
+  Penult Flow: 0.432
+  Continue Flow: 2.197
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.068
+  Penult Flow: 0.444
+  Continue Flow: 1.527
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.018
+  Continue Flow: 0.000
+  Pattern Entropy: 1.955
+Seed 2, Epoch 40: Train Loss = 0.9519, Test Loss = 1.0961
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 0.348
+  Continue Flow: 2.186
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.599
+  Continue Flow: 1.384
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.037
+  Continue Flow: 0.000
+  Pattern Entropy: 1.951
+Seed 2, Epoch 45: Train Loss = 0.9340, Test Loss = 1.1240
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.088
+  Penult Flow: 0.393
+  Continue Flow: 2.055
+  Pattern Entropy: 1.986
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.622
+  Continue Flow: 1.350
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.979
+  Continue Flow: 0.000
+  Pattern Entropy: 1.973
+Seed 2, Epoch 50: Train Loss = 0.8903, Test Loss = 1.0718
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.088
+  Penult Flow: 0.345
+  Continue Flow: 2.201
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.630
+  Continue Flow: 1.463
+  Pattern Entropy: 1.997
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.999
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 2, Epoch 55: Train Loss = 0.8588, Test Loss = 1.1357
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 0.355
+  Continue Flow: 2.111
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.070
+  Penult Flow: 0.727
+  Continue Flow: 1.500
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.057
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+Seed 2, Epoch 60: Train Loss = 0.8284, Test Loss = 1.1343
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 0.323
+  Continue Flow: 2.257
+  Pattern Entropy: 1.991
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.814
+  Continue Flow: 1.594
+  Pattern Entropy: 1.981
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.019
+  Continue Flow: 0.000
+  Pattern Entropy: 1.981
+Seed 2, Epoch 65: Train Loss = 0.7977, Test Loss = 1.2233
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.310
+  Continue Flow: 2.113
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.074
+  Penult Flow: 0.788
+  Continue Flow: 1.549
+  Pattern Entropy: 1.970
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.082
+  Continue Flow: 0.000
+  Pattern Entropy: 1.976
+Seed 2, Epoch 70: Train Loss = 0.7793, Test Loss = 1.2502
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.084
+  Penult Flow: 0.315
+  Continue Flow: 2.412
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.071
+  Penult Flow: 0.912
+  Continue Flow: 1.928
+  Pattern Entropy: 1.975
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.055
+  Continue Flow: 0.000
+  Pattern Entropy: 1.967
+Seed 2, Epoch 75: Train Loss = 0.7685, Test Loss = 1.1876
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.090
+  Penult Flow: 0.310
+  Continue Flow: 2.111
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.069
+  Penult Flow: 0.844
+  Continue Flow: 1.604
+  Pattern Entropy: 1.971
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.173
+  Continue Flow: 0.000
+  Pattern Entropy: 1.969
+Seed 2, Epoch 80: Train Loss = 0.7355, Test Loss = 1.1681
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 0.306
+  Continue Flow: 2.540
+  Pattern Entropy: 1.983
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.072
+  Penult Flow: 0.789
+  Continue Flow: 1.992
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.076
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 2, Epoch 85: Train Loss = 0.7379, Test Loss = 1.1897
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.083
+  Penult Flow: 0.293
+  Continue Flow: 2.261
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.071
+  Penult Flow: 0.865
+  Continue Flow: 1.830
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.107
+  Continue Flow: 0.000
+  Pattern Entropy: 1.971
+Seed 2, Epoch 90: Train Loss = 0.6729, Test Loss = 1.3187
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 0.291
+  Continue Flow: 2.427
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.069
+  Penult Flow: 0.790
+  Continue Flow: 1.993
+  Pattern Entropy: 1.972
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.249
+  Continue Flow: 0.000
+  Pattern Entropy: 1.967
+Seed 2, Epoch 95: Train Loss = 0.7032, Test Loss = 1.2608
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.297
+  Continue Flow: 2.312
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.065
+  Penult Flow: 0.720
+  Continue Flow: 1.874
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.270
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 1.0038, Test Loss = 1.0315
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 0.278
+  Continue Flow: 1.613
+  Pattern Entropy: 1.991
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.081
+  Penult Flow: 0.386
+  Continue Flow: 0.290
+  Pattern Entropy: 1.994
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.081
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 3, Epoch 5: Train Loss = 0.9960, Test Loss = 1.0408
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.086
+  Penult Flow: 0.259
+  Continue Flow: 1.716
+  Pattern Entropy: 1.995
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.082
+  Penult Flow: 0.376
+  Continue Flow: 0.363
+  Pattern Entropy: 1.995
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.083
+  Continue Flow: 0.000
+  Pattern Entropy: 1.996
+Seed 3, Epoch 10: Train Loss = 0.9976, Test Loss = 1.0257
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.082
+  Penult Flow: 0.266
+  Continue Flow: 1.709
+  Pattern Entropy: 1.993
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.079
+  Penult Flow: 0.365
+  Continue Flow: 0.354
+  Pattern Entropy: 1.996
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.085
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 3, Epoch 15: Train Loss = 1.0001, Test Loss = 1.0480
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.079
+  Penult Flow: 0.256
+  Continue Flow: 1.702
+  Pattern Entropy: 1.998
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.077
+  Penult Flow: 0.366
+  Continue Flow: 0.367
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.035
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 3, Epoch 20: Train Loss = 0.9955, Test Loss = 1.0476
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.081
+  Penult Flow: 0.259
+  Continue Flow: 1.629
+  Pattern Entropy: 1.996
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.380
+  Continue Flow: 0.373
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.036
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 3, Epoch 25: Train Loss = 0.9922, Test Loss = 1.0366
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.078
+  Penult Flow: 0.250
+  Continue Flow: 1.740
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.360
+  Continue Flow: 0.433
+  Pattern Entropy: 1.999
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.103
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 3, Epoch 30: Train Loss = 0.9920, Test Loss = 1.0539
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.289
+  Continue Flow: 1.760
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.488
+  Pred Error: 0.074
+  Penult Flow: 0.324
+  Continue Flow: 0.546
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.984
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 3, Epoch 35: Train Loss = 0.9802, Test Loss = 1.0224
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.488
+  Pred Error: 0.074
+  Penult Flow: 0.333
+  Continue Flow: 1.917
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.070
+  Penult Flow: 0.357
+  Continue Flow: 0.645
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.027
+  Continue Flow: 0.000
+  Pattern Entropy: 1.994
+Seed 3, Epoch 40: Train Loss = 0.9655, Test Loss = 1.0615
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.468
+  Continue Flow: 2.037
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.070
+  Penult Flow: 0.372
+  Continue Flow: 1.026
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.030
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 3, Epoch 45: Train Loss = 0.9510, Test Loss = 0.9948
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.488
+  Pred Error: 0.074
+  Penult Flow: 0.443
+  Continue Flow: 2.191
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.067
+  Penult Flow: 0.423
+  Continue Flow: 1.348
+  Pattern Entropy: 1.958
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.097
+  Continue Flow: 0.000
+  Pattern Entropy: 1.962
+Seed 3, Epoch 50: Train Loss = 0.9395, Test Loss = 1.0468
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.489
+  Pred Error: 0.069
+  Penult Flow: 0.341
+  Continue Flow: 2.149
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.070
+  Penult Flow: 0.464
+  Continue Flow: 1.306
+  Pattern Entropy: 1.981
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.022
+  Continue Flow: 0.000
+  Pattern Entropy: 1.996
+Seed 3, Epoch 55: Train Loss = 0.9246, Test Loss = 1.0017
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.067
+  Penult Flow: 0.337
+  Continue Flow: 2.334
+  Pattern Entropy: 1.962
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.068
+  Penult Flow: 0.513
+  Continue Flow: 1.683
+  Pattern Entropy: 1.953
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 0.969
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 3, Epoch 60: Train Loss = 0.8835, Test Loss = 1.0385
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.065
+  Penult Flow: 0.349
+  Continue Flow: 2.228
+  Pattern Entropy: 1.965
+Layer 1:
+  Confidence: 0.489
+  Pred Error: 0.071
+  Penult Flow: 0.577
+  Continue Flow: 1.529
+  Pattern Entropy: 1.950
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.089
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 3, Epoch 65: Train Loss = 0.8591, Test Loss = 1.0136
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.063
+  Penult Flow: 0.420
+  Continue Flow: 2.295
+  Pattern Entropy: 1.974
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.065
+  Penult Flow: 0.580
+  Continue Flow: 1.712
+  Pattern Entropy: 1.977
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.026
+  Continue Flow: 0.000
+  Pattern Entropy: 1.970
+Seed 3, Epoch 70: Train Loss = 0.8413, Test Loss = 1.0749
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.489
+  Pred Error: 0.068
+  Penult Flow: 0.397
+  Continue Flow: 2.173
+  Pattern Entropy: 1.985
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.064
+  Penult Flow: 0.557
+  Continue Flow: 1.700
+  Pattern Entropy: 1.980
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.120
+  Continue Flow: 0.000
+  Pattern Entropy: 1.979
+Seed 3, Epoch 75: Train Loss = 0.8359, Test Loss = 1.0519
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.489
+  Pred Error: 0.069
+  Penult Flow: 0.345
+  Continue Flow: 2.341
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.064
+  Penult Flow: 0.536
+  Continue Flow: 1.771
+  Pattern Entropy: 1.987
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.131
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 3, Epoch 80: Train Loss = 0.7649, Test Loss = 1.0190
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.489
+  Pred Error: 0.070
+  Penult Flow: 0.354
+  Continue Flow: 2.431
+  Pattern Entropy: 1.986
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.064
+  Penult Flow: 0.578
+  Continue Flow: 1.809
+  Pattern Entropy: 1.974
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.176
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 3, Epoch 85: Train Loss = 0.7977, Test Loss = 1.0982
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.066
+  Penult Flow: 0.355
+  Continue Flow: 2.205
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.490
+  Pred Error: 0.064
+  Penult Flow: 0.575
+  Continue Flow: 1.695
+  Pattern Entropy: 1.971
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.172
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 3, Epoch 90: Train Loss = 0.7485, Test Loss = 1.0831
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.491
+  Pred Error: 0.062
+  Penult Flow: 0.349
+  Continue Flow: 2.487
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.491
+  Pred Error: 0.062
+  Penult Flow: 0.584
+  Continue Flow: 1.902
+  Pattern Entropy: 1.972
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.248
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 3, Epoch 95: Train Loss = 0.7427, Test Loss = 1.0830
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.066
+  Penult Flow: 0.328
+  Continue Flow: 2.494
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.491
+  Pred Error: 0.061
+  Penult Flow: 0.604
+  Continue Flow: 1.931
+  Pattern Entropy: 1.961
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.217
+  Continue Flow: 0.000
+  Pattern Entropy: 1.972
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 1.0021, Test Loss = 0.9935
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.290
+  Continue Flow: 1.751
+  Pattern Entropy: 1.985
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.102
+  Penult Flow: 0.409
+  Continue Flow: 0.385
+  Pattern Entropy: 1.992
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.295
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 4, Epoch 5: Train Loss = 1.0047, Test Loss = 1.0109
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.089
+  Penult Flow: 0.276
+  Continue Flow: 1.647
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 0.392
+  Continue Flow: 0.379
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.265
+  Continue Flow: 0.000
+  Pattern Entropy: 1.996
+Seed 4, Epoch 10: Train Loss = 1.0050, Test Loss = 0.9964
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.485
+  Pred Error: 0.083
+  Penult Flow: 0.281
+  Continue Flow: 1.619
+  Pattern Entropy: 1.997
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 0.379
+  Continue Flow: 0.382
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.235
+  Continue Flow: 0.000
+  Pattern Entropy: 1.995
+Seed 4, Epoch 15: Train Loss = 1.0062, Test Loss = 0.9996
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.484
+  Pred Error: 0.087
+  Penult Flow: 0.256
+  Continue Flow: 1.712
+  Pattern Entropy: 1.986
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.093
+  Penult Flow: 0.372
+  Continue Flow: 0.411
+  Pattern Entropy: 1.998
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.230
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 4, Epoch 20: Train Loss = 1.0007, Test Loss = 1.0108
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.078
+  Penult Flow: 0.253
+  Continue Flow: 1.748
+  Pattern Entropy: 1.988
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.082
+  Penult Flow: 0.348
+  Continue Flow: 0.473
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.258
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 4, Epoch 25: Train Loss = 1.0039, Test Loss = 1.0050
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.262
+  Continue Flow: 1.785
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.355
+  Continue Flow: 0.557
+  Pattern Entropy: 1.993
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.188
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 4, Epoch 30: Train Loss = 1.0018, Test Loss = 1.0047
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.486
+  Pred Error: 0.081
+  Penult Flow: 0.280
+  Continue Flow: 1.834
+  Pattern Entropy: 1.990
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.083
+  Penult Flow: 0.327
+  Continue Flow: 0.592
+  Pattern Entropy: 1.997
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.207
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 4, Epoch 35: Train Loss = 0.9949, Test Loss = 0.9819
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.489
+  Pred Error: 0.070
+  Penult Flow: 0.300
+  Continue Flow: 1.824
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.079
+  Penult Flow: 0.332
+  Continue Flow: 0.805
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.177
+  Continue Flow: 0.000
+  Pattern Entropy: 1.990
+Seed 4, Epoch 40: Train Loss = 0.9864, Test Loss = 1.0027
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.488
+  Pred Error: 0.074
+  Penult Flow: 0.319
+  Continue Flow: 1.996
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.082
+  Penult Flow: 0.374
+  Continue Flow: 0.991
+  Pattern Entropy: 1.990
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.179
+  Continue Flow: 0.000
+  Pattern Entropy: 1.996
+Seed 4, Epoch 45: Train Loss = 0.9771, Test Loss = 1.0321
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.488
+  Pred Error: 0.073
+  Penult Flow: 0.313
+  Continue Flow: 1.896
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.485
+  Pred Error: 0.085
+  Penult Flow: 0.395
+  Continue Flow: 1.115
+  Pattern Entropy: 1.989
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.171
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 4, Epoch 50: Train Loss = 0.9716, Test Loss = 1.0233
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.066
+  Penult Flow: 0.336
+  Continue Flow: 2.044
+  Pattern Entropy: 1.971
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.078
+  Penult Flow: 0.442
+  Continue Flow: 1.258
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.115
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 4, Epoch 55: Train Loss = 0.9555, Test Loss = 1.0852
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.489
+  Pred Error: 0.067
+  Penult Flow: 0.274
+  Continue Flow: 2.104
+  Pattern Entropy: 1.937
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.431
+  Continue Flow: 1.427
+  Pattern Entropy: 1.981
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.115
+  Continue Flow: 0.000
+  Pattern Entropy: 1.995
+Seed 4, Epoch 60: Train Loss = 0.9446, Test Loss = 1.0712
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.065
+  Penult Flow: 0.330
+  Continue Flow: 2.174
+  Pattern Entropy: 1.945
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.080
+  Penult Flow: 0.624
+  Continue Flow: 1.529
+  Pattern Entropy: 1.967
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.153
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 4, Epoch 65: Train Loss = 0.9265, Test Loss = 1.0650
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.489
+  Pred Error: 0.067
+  Penult Flow: 0.304
+  Continue Flow: 2.281
+  Pattern Entropy: 1.958
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.077
+  Penult Flow: 0.574
+  Continue Flow: 1.680
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.112
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 4, Epoch 70: Train Loss = 0.9195, Test Loss = 1.0399
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.066
+  Penult Flow: 0.328
+  Continue Flow: 2.060
+  Pattern Entropy: 1.969
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.077
+  Penult Flow: 0.590
+  Continue Flow: 1.446
+  Pattern Entropy: 1.974
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.162
+  Continue Flow: 0.000
+  Pattern Entropy: 1.993
+Seed 4, Epoch 75: Train Loss = 0.8907, Test Loss = 1.0568
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.491
+  Pred Error: 0.059
+  Penult Flow: 0.335
+  Continue Flow: 2.168
+  Pattern Entropy: 1.924
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.079
+  Penult Flow: 0.565
+  Continue Flow: 1.606
+  Pattern Entropy: 1.980
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.087
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 4, Epoch 80: Train Loss = 0.8706, Test Loss = 1.1105
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.064
+  Penult Flow: 0.314
+  Continue Flow: 2.224
+  Pattern Entropy: 1.950
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.076
+  Penult Flow: 0.631
+  Continue Flow: 1.634
+  Pattern Entropy: 1.991
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.096
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+Seed 4, Epoch 85: Train Loss = 0.8674, Test Loss = 1.1256
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.490
+  Pred Error: 0.065
+  Penult Flow: 0.325
+  Continue Flow: 2.217
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.076
+  Penult Flow: 0.662
+  Continue Flow: 1.662
+  Pattern Entropy: 1.985
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.121
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 4, Epoch 90: Train Loss = 0.8567, Test Loss = 1.1572
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.491
+  Pred Error: 0.060
+  Penult Flow: 0.336
+  Continue Flow: 2.275
+  Pattern Entropy: 1.910
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.075
+  Penult Flow: 0.597
+  Continue Flow: 1.767
+  Pattern Entropy: 1.967
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.029
+  Continue Flow: 0.000
+  Pattern Entropy: 1.994
+Seed 4, Epoch 95: Train Loss = 0.8407, Test Loss = 1.1620
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.491
+  Pred Error: 0.059
+  Penult Flow: 0.335
+  Continue Flow: 2.067
+  Pattern Entropy: 1.926
+Layer 1:
+  Confidence: 0.487
+  Pred Error: 0.076
+  Penult Flow: 0.659
+  Continue Flow: 1.656
+  Pattern Entropy: 1.984
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.073
+  Continue Flow: 0.000
+  Pattern Entropy: 1.996
+Completed memory experiments successfully
+Standard: 1.8087 ± 0.1402
+Predictive: 1.2272 ± 0.0719
+p-value: 0.0001
+
+Running experiments for language data...
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 78.0580, Test Loss = 41.9994
+Seed 0, Epoch 5: Train Loss = 3.1712, Test Loss = 3.6832
+Seed 0, Epoch 10: Train Loss = 3.0244, Test Loss = 3.7886
+Seed 0, Epoch 15: Train Loss = 2.9847, Test Loss = 3.6592
+Seed 0, Epoch 20: Train Loss = 2.9991, Test Loss = 3.6587
+Seed 0, Epoch 25: Train Loss = 2.8963, Test Loss = 3.6344
+Seed 0, Epoch 30: Train Loss = 3.0700, Test Loss = 3.6571
+Seed 0, Epoch 35: Train Loss = 3.1249, Test Loss = 3.6132
+Seed 0, Epoch 40: Train Loss = 2.9977, Test Loss = 3.6685
+Seed 0, Epoch 45: Train Loss = 2.8800, Test Loss = 3.6219
+Seed 0, Epoch 50: Train Loss = 2.9844, Test Loss = 3.7565
+Seed 0, Epoch 55: Train Loss = 2.8964, Test Loss = 3.7012
+Seed 0, Epoch 60: Train Loss = 3.1057, Test Loss = 3.6481
+Seed 0, Epoch 65: Train Loss = 2.9560, Test Loss = 3.6357
+Seed 0, Epoch 70: Train Loss = 3.0391, Test Loss = 3.6516
+Seed 0, Epoch 75: Train Loss = 2.9140, Test Loss = 3.6917
+Seed 0, Epoch 80: Train Loss = 2.9298, Test Loss = 3.6888
+Seed 0, Epoch 85: Train Loss = 2.8728, Test Loss = 3.6174
+Seed 0, Epoch 90: Train Loss = 2.9449, Test Loss = 3.6807
+Seed 0, Epoch 95: Train Loss = 3.0912, Test Loss = 3.6089
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 47.6186, Test Loss = 31.5041
+Seed 1, Epoch 5: Train Loss = 3.2781, Test Loss = 3.3963
+Seed 1, Epoch 10: Train Loss = 3.2259, Test Loss = 3.3144
+Seed 1, Epoch 15: Train Loss = 3.1027, Test Loss = 3.3537
+Seed 1, Epoch 20: Train Loss = 3.2574, Test Loss = 3.3694
+Seed 1, Epoch 25: Train Loss = 3.1030, Test Loss = 3.3973
+Seed 1, Epoch 30: Train Loss = 3.1647, Test Loss = 3.4434
+Seed 1, Epoch 35: Train Loss = 3.1190, Test Loss = 3.3005
+Seed 1, Epoch 40: Train Loss = 3.0964, Test Loss = 3.2500
+Seed 1, Epoch 45: Train Loss = 3.1476, Test Loss = 3.2263
+Seed 1, Epoch 50: Train Loss = 3.1856, Test Loss = 3.2216
+Seed 1, Epoch 55: Train Loss = 3.1332, Test Loss = 3.2903
+Seed 1, Epoch 60: Train Loss = 3.1926, Test Loss = 3.2382
+Seed 1, Epoch 65: Train Loss = 3.1923, Test Loss = 3.3901
+Seed 1, Epoch 70: Train Loss = 3.1858, Test Loss = 3.3353
+Seed 1, Epoch 75: Train Loss = 3.2683, Test Loss = 3.2174
+Seed 1, Epoch 80: Train Loss = 3.1967, Test Loss = 3.3368
+Seed 1, Epoch 85: Train Loss = 3.1872, Test Loss = 3.3090
+Seed 1, Epoch 90: Train Loss = 3.0954, Test Loss = 3.3172
+Seed 1, Epoch 95: Train Loss = 3.1058, Test Loss = 3.2700
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 61.6164, Test Loss = 34.6145
+Seed 2, Epoch 5: Train Loss = 3.0732, Test Loss = 3.3533
+Seed 2, Epoch 10: Train Loss = 3.0299, Test Loss = 3.2551
+Seed 2, Epoch 15: Train Loss = 3.0341, Test Loss = 3.3019
+Seed 2, Epoch 20: Train Loss = 3.1186, Test Loss = 3.3137
+Seed 2, Epoch 25: Train Loss = 3.0251, Test Loss = 3.3275
+Seed 2, Epoch 30: Train Loss = 2.9945, Test Loss = 3.2138
+Seed 2, Epoch 35: Train Loss = 2.9873, Test Loss = 3.2337
+Seed 2, Epoch 40: Train Loss = 3.1350, Test Loss = 3.1958
+Seed 2, Epoch 45: Train Loss = 3.0060, Test Loss = 3.3069
+Seed 2, Epoch 50: Train Loss = 2.9581, Test Loss = 3.2553
+Seed 2, Epoch 55: Train Loss = 2.9929, Test Loss = 3.3082
+Seed 2, Epoch 60: Train Loss = 3.0148, Test Loss = 3.3170
+Seed 2, Epoch 65: Train Loss = 2.9819, Test Loss = 3.2079
+Seed 2, Epoch 70: Train Loss = 3.0719, Test Loss = 3.3075
+Seed 2, Epoch 75: Train Loss = 3.0487, Test Loss = 3.2090
+Seed 2, Epoch 80: Train Loss = 3.0496, Test Loss = 3.2367
+Seed 2, Epoch 85: Train Loss = 3.0709, Test Loss = 3.2817
+Seed 2, Epoch 90: Train Loss = 3.0196, Test Loss = 3.2934
+Seed 2, Epoch 95: Train Loss = 2.9948, Test Loss = 3.1934
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 64.2791, Test Loss = 36.8325
+Seed 3, Epoch 5: Train Loss = 3.2549, Test Loss = 3.4829
+Seed 3, Epoch 10: Train Loss = 3.3033, Test Loss = 3.4266
+Seed 3, Epoch 15: Train Loss = 3.3869, Test Loss = 3.3120
+Seed 3, Epoch 20: Train Loss = 3.1586, Test Loss = 3.2684
+Seed 3, Epoch 25: Train Loss = 3.2170, Test Loss = 3.4450
+Seed 3, Epoch 30: Train Loss = 3.2254, Test Loss = 3.4214
+Seed 3, Epoch 35: Train Loss = 3.1757, Test Loss = 3.4138
+Seed 3, Epoch 40: Train Loss = 3.2619, Test Loss = 3.2473
+Seed 3, Epoch 45: Train Loss = 3.2226, Test Loss = 3.8778
+Seed 3, Epoch 50: Train Loss = 3.2770, Test Loss = 3.6475
+Seed 3, Epoch 55: Train Loss = 3.2169, Test Loss = 3.3671
+Seed 3, Epoch 60: Train Loss = 3.2385, Test Loss = 3.4315
+Seed 3, Epoch 65: Train Loss = 3.2129, Test Loss = 3.3151
+Seed 3, Epoch 70: Train Loss = 3.2613, Test Loss = 3.5992
+Seed 3, Epoch 75: Train Loss = 3.2126, Test Loss = 3.9087
+Seed 3, Epoch 80: Train Loss = 3.2640, Test Loss = 3.4781
+Seed 3, Epoch 85: Train Loss = 3.2001, Test Loss = 3.3651
+Seed 3, Epoch 90: Train Loss = 3.2348, Test Loss = 3.3483
+Seed 3, Epoch 95: Train Loss = 3.2787, Test Loss = 3.3572
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 59.9128, Test Loss = 33.7845
+Seed 4, Epoch 5: Train Loss = 3.2283, Test Loss = 2.6169
+Seed 4, Epoch 10: Train Loss = 3.3089, Test Loss = 2.7570
+Seed 4, Epoch 15: Train Loss = 3.2114, Test Loss = 2.6213
+Seed 4, Epoch 20: Train Loss = 3.3174, Test Loss = 2.6183
+Seed 4, Epoch 25: Train Loss = 3.1545, Test Loss = 2.5041
+Seed 4, Epoch 30: Train Loss = 3.1242, Test Loss = 2.5280
+Seed 4, Epoch 35: Train Loss = 3.2157, Test Loss = 2.6732
+Seed 4, Epoch 40: Train Loss = 3.3055, Test Loss = 2.5143
+Seed 4, Epoch 45: Train Loss = 3.2332, Test Loss = 2.5118
+Seed 4, Epoch 50: Train Loss = 3.1786, Test Loss = 2.5496
+Seed 4, Epoch 55: Train Loss = 3.1193, Test Loss = 2.7382
+Seed 4, Epoch 60: Train Loss = 3.2651, Test Loss = 2.5361
+Seed 4, Epoch 65: Train Loss = 3.2365, Test Loss = 2.5392
+Seed 4, Epoch 70: Train Loss = 3.2438, Test Loss = 2.8813
+Seed 4, Epoch 75: Train Loss = 3.2596, Test Loss = 2.5184
+Seed 4, Epoch 80: Train Loss = 3.1590, Test Loss = 2.5983
+Seed 4, Epoch 85: Train Loss = 3.2454, Test Loss = 2.4440
+Seed 4, Epoch 90: Train Loss = 3.1383, Test Loss = 2.5843
+Seed 4, Epoch 95: Train Loss = 3.1489, Test Loss = 2.5541
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 83.1741, Test Loss = 59.6289
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 1.430
+  Continue Flow: 23.953
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 1.157
+  Continue Flow: 9.255
+  Pattern Entropy: 1.904
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.850
+  Continue Flow: 0.000
+  Pattern Entropy: 1.904
+Seed 0, Epoch 5: Train Loss = 30.5207, Test Loss = 33.6347
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.139
+  Penult Flow: 3.716
+  Continue Flow: 26.318
+  Pattern Entropy: 1.893
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.099
+  Penult Flow: 2.161
+  Continue Flow: 11.567
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.958
+  Continue Flow: 0.000
+  Pattern Entropy: 1.962
+Seed 0, Epoch 10: Train Loss = 7.2995, Test Loss = 7.0704
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.153
+  Penult Flow: 4.763
+  Continue Flow: 24.991
+  Pattern Entropy: 1.877
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 2.936
+  Continue Flow: 12.845
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.166
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 0, Epoch 15: Train Loss = 7.2002, Test Loss = 8.9255
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.467
+  Pred Error: 0.157
+  Penult Flow: 4.849
+  Continue Flow: 24.436
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.141
+  Penult Flow: 3.984
+  Continue Flow: 12.034
+  Pattern Entropy: 1.978
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.172
+  Continue Flow: 0.000
+  Pattern Entropy: 1.967
+Seed 0, Epoch 20: Train Loss = 6.9316, Test Loss = 7.2415
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.464
+  Pred Error: 0.170
+  Penult Flow: 4.735
+  Continue Flow: 26.257
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.092
+  Penult Flow: 1.297
+  Continue Flow: 15.536
+  Pattern Entropy: 1.877
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.319
+  Continue Flow: 0.000
+  Pattern Entropy: 1.904
+Seed 0, Epoch 25: Train Loss = 7.0380, Test Loss = 7.9752
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.463
+  Pred Error: 0.173
+  Penult Flow: 4.812
+  Continue Flow: 23.609
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.094
+  Penult Flow: 1.356
+  Continue Flow: 12.339
+  Pattern Entropy: 1.877
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.366
+  Continue Flow: 0.000
+  Pattern Entropy: 1.877
+Seed 0, Epoch 30: Train Loss = 6.9719, Test Loss = 7.9723
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.464
+  Pred Error: 0.170
+  Penult Flow: 4.873
+  Continue Flow: 25.468
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 2.520
+  Continue Flow: 14.975
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.492
+  Continue Flow: 0.000
+  Pattern Entropy: 1.923
+Seed 0, Epoch 35: Train Loss = 7.5046, Test Loss = 7.1870
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.465
+  Pred Error: 0.165
+  Penult Flow: 4.918
+  Continue Flow: 23.449
+  Pattern Entropy: 1.893
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.112
+  Penult Flow: 2.515
+  Continue Flow: 12.235
+  Pattern Entropy: 1.923
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.514
+  Continue Flow: 0.000
+  Pattern Entropy: 1.940
+Seed 0, Epoch 40: Train Loss = 7.2289, Test Loss = 7.8805
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.463
+  Pred Error: 0.173
+  Penult Flow: 4.705
+  Continue Flow: 24.977
+  Pattern Entropy: 1.915
+Layer 1:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 1.518
+  Continue Flow: 15.342
+  Pattern Entropy: 1.893
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.357
+  Continue Flow: 0.000
+  Pattern Entropy: 1.951
+Seed 0, Epoch 45: Train Loss = 6.0462, Test Loss = 6.3156
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.462
+  Pred Error: 0.175
+  Penult Flow: 4.651
+  Continue Flow: 30.989
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.486
+  Pred Error: 0.082
+  Penult Flow: 1.570
+  Continue Flow: 20.428
+  Pattern Entropy: 1.904
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.545
+  Continue Flow: 0.000
+  Pattern Entropy: 1.967
+Seed 0, Epoch 50: Train Loss = 4.1238, Test Loss = 5.1658
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.462
+  Pred Error: 0.179
+  Penult Flow: 4.088
+  Continue Flow: 30.483
+  Pattern Entropy: 1.915
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.108
+  Penult Flow: 2.360
+  Continue Flow: 18.930
+  Pattern Entropy: 1.904
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.055
+  Continue Flow: 0.000
+  Pattern Entropy: 1.904
+Seed 0, Epoch 55: Train Loss = 3.2818, Test Loss = 4.1203
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.462
+  Pred Error: 0.175
+  Penult Flow: 4.132
+  Continue Flow: 31.804
+  Pattern Entropy: 1.877
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.125
+  Penult Flow: 3.987
+  Continue Flow: 23.674
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.470
+  Continue Flow: 0.000
+  Pattern Entropy: 1.967
+Seed 0, Epoch 60: Train Loss = 3.3246, Test Loss = 3.6728
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.460
+  Pred Error: 0.182
+  Penult Flow: 4.230
+  Continue Flow: 30.569
+  Pattern Entropy: 1.893
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.125
+  Penult Flow: 3.845
+  Continue Flow: 23.976
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.207
+  Continue Flow: 0.000
+  Pattern Entropy: 1.978
+Seed 0, Epoch 65: Train Loss = 3.1381, Test Loss = 3.8526
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.463
+  Pred Error: 0.170
+  Penult Flow: 4.173
+  Continue Flow: 30.664
+  Pattern Entropy: 1.877
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.155
+  Penult Flow: 5.301
+  Continue Flow: 22.416
+  Pattern Entropy: 1.967
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.373
+  Continue Flow: 0.000
+  Pattern Entropy: 1.967
+Seed 0, Epoch 70: Train Loss = 3.0765, Test Loss = 4.7089
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.458
+  Pred Error: 0.193
+  Penult Flow: 4.102
+  Continue Flow: 28.336
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 2.447
+  Continue Flow: 20.276
+  Pattern Entropy: 1.904
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.093
+  Continue Flow: 0.000
+  Pattern Entropy: 1.923
+Seed 0, Epoch 75: Train Loss = 3.0694, Test Loss = 3.9111
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.457
+  Pred Error: 0.197
+  Penult Flow: 4.289
+  Continue Flow: 31.772
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.481
+  Pred Error: 0.101
+  Penult Flow: 2.408
+  Continue Flow: 23.515
+  Pattern Entropy: 1.904
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.233
+  Continue Flow: 0.000
+  Pattern Entropy: 1.962
+Seed 0, Epoch 80: Train Loss = 3.0460, Test Loss = 3.7740
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.151
+  Penult Flow: 4.265
+  Continue Flow: 29.519
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.460
+  Pred Error: 0.183
+  Penult Flow: 6.789
+  Continue Flow: 22.104
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 4.028
+  Continue Flow: 0.000
+  Pattern Entropy: 1.951
+Seed 0, Epoch 85: Train Loss = 3.2271, Test Loss = 3.7986
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.458
+  Pred Error: 0.192
+  Penult Flow: 4.193
+  Continue Flow: 34.525
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.095
+  Penult Flow: 2.491
+  Continue Flow: 26.428
+  Pattern Entropy: 1.893
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.217
+  Continue Flow: 0.000
+  Pattern Entropy: 1.940
+Seed 0, Epoch 90: Train Loss = 3.7045, Test Loss = 3.9862
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.460
+  Pred Error: 0.183
+  Penult Flow: 4.319
+  Continue Flow: 34.908
+  Pattern Entropy: 1.904
+Layer 1:
+  Confidence: 0.472
+  Pred Error: 0.132
+  Penult Flow: 3.945
+  Continue Flow: 28.522
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.761
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Seed 0, Epoch 95: Train Loss = 3.0792, Test Loss = 3.8270
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.458
+  Pred Error: 0.190
+  Penult Flow: 4.147
+  Continue Flow: 30.249
+  Pattern Entropy: 1.877
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 3.883
+  Continue Flow: 20.607
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.830
+  Continue Flow: 0.000
+  Pattern Entropy: 1.951
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 86.3570, Test Loss = 95.2253
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.482
+  Pred Error: 0.096
+  Penult Flow: 1.198
+  Continue Flow: 21.364
+  Pattern Entropy: 1.911
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.113
+  Penult Flow: 0.893
+  Continue Flow: 7.640
+  Pattern Entropy: 1.922
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.049
+  Continue Flow: 0.000
+  Pattern Entropy: 1.910
+Seed 1, Epoch 5: Train Loss = 25.4259, Test Loss = 20.8184
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 3.349
+  Continue Flow: 19.598
+  Pattern Entropy: 1.975
+Layer 1:
+  Confidence: 0.476
+  Pred Error: 0.119
+  Penult Flow: 1.539
+  Continue Flow: 6.995
+  Pattern Entropy: 1.980
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.368
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 1, Epoch 10: Train Loss = 5.8004, Test Loss = 5.3423
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 3.522
+  Continue Flow: 21.671
+  Pattern Entropy: 1.987
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.126
+  Penult Flow: 1.444
+  Continue Flow: 9.633
+  Pattern Entropy: 1.948
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.388
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 1, Epoch 15: Train Loss = 5.1445, Test Loss = 5.0920
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.479
+  Pred Error: 0.110
+  Penult Flow: 3.501
+  Continue Flow: 22.277
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.129
+  Penult Flow: 1.624
+  Continue Flow: 11.160
+  Pattern Entropy: 1.959
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.739
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+Seed 1, Epoch 20: Train Loss = 4.8155, Test Loss = 4.9240
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.114
+  Penult Flow: 3.808
+  Continue Flow: 22.551
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 1.010
+  Continue Flow: 10.327
+  Pattern Entropy: 1.922
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.010
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 1, Epoch 25: Train Loss = 5.0700, Test Loss = 5.4482
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.479
+  Pred Error: 0.107
+  Penult Flow: 3.186
+  Continue Flow: 22.730
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 1.048
+  Continue Flow: 11.321
+  Pattern Entropy: 1.941
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.000
+  Continue Flow: 0.000
+  Pattern Entropy: 1.974
+Seed 1, Epoch 30: Train Loss = 5.0913, Test Loss = 4.7069
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.114
+  Penult Flow: 4.065
+  Continue Flow: 22.647
+  Pattern Entropy: 1.980
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.127
+  Penult Flow: 1.821
+  Continue Flow: 10.707
+  Pattern Entropy: 1.968
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.136
+  Continue Flow: 0.000
+  Pattern Entropy: 1.991
+Seed 1, Epoch 35: Train Loss = 4.6150, Test Loss = 4.6219
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.479
+  Pred Error: 0.106
+  Penult Flow: 2.912
+  Continue Flow: 23.207
+  Pattern Entropy: 1.962
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.112
+  Penult Flow: 1.133
+  Continue Flow: 12.698
+  Pattern Entropy: 1.967
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.980
+  Continue Flow: 0.000
+  Pattern Entropy: 1.956
+Seed 1, Epoch 40: Train Loss = 4.1992, Test Loss = 3.8662
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.144
+  Penult Flow: 3.818
+  Continue Flow: 24.659
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.479
+  Pred Error: 0.109
+  Penult Flow: 1.461
+  Continue Flow: 11.979
+  Pattern Entropy: 1.974
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.989
+  Continue Flow: 0.000
+  Pattern Entropy: 1.962
+Seed 1, Epoch 45: Train Loss = 3.4144, Test Loss = 3.5733
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 2.978
+  Continue Flow: 23.588
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.111
+  Penult Flow: 1.614
+  Continue Flow: 12.692
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.569
+  Continue Flow: 0.000
+  Pattern Entropy: 1.960
+Seed 1, Epoch 50: Train Loss = 3.3139, Test Loss = 3.3686
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 3.104
+  Continue Flow: 24.206
+  Pattern Entropy: 1.983
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 1.872
+  Continue Flow: 13.235
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.985
+  Continue Flow: 0.000
+  Pattern Entropy: 1.955
+Seed 1, Epoch 55: Train Loss = 3.2427, Test Loss = 3.5286
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.114
+  Penult Flow: 2.941
+  Continue Flow: 23.898
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.126
+  Penult Flow: 2.197
+  Continue Flow: 13.543
+  Pattern Entropy: 1.971
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.325
+  Continue Flow: 0.000
+  Pattern Entropy: 1.979
+Seed 1, Epoch 60: Train Loss = 3.2506, Test Loss = 3.4305
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.126
+  Penult Flow: 3.310
+  Continue Flow: 25.399
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.129
+  Penult Flow: 2.438
+  Continue Flow: 15.108
+  Pattern Entropy: 1.987
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.677
+  Continue Flow: 0.000
+  Pattern Entropy: 1.960
+Seed 1, Epoch 65: Train Loss = 3.6509, Test Loss = 3.7987
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.125
+  Penult Flow: 3.484
+  Continue Flow: 25.317
+  Pattern Entropy: 1.982
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.116
+  Penult Flow: 2.085
+  Continue Flow: 15.087
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.287
+  Continue Flow: 0.000
+  Pattern Entropy: 1.947
+Seed 1, Epoch 70: Train Loss = 3.3824, Test Loss = 3.3475
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.123
+  Penult Flow: 2.685
+  Continue Flow: 24.383
+  Pattern Entropy: 1.976
+Layer 1:
+  Confidence: 0.478
+  Pred Error: 0.111
+  Penult Flow: 1.739
+  Continue Flow: 14.267
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.596
+  Continue Flow: 0.000
+  Pattern Entropy: 1.924
+Seed 1, Epoch 75: Train Loss = 3.2429, Test Loss = 3.3635
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.126
+  Penult Flow: 2.829
+  Continue Flow: 24.754
+  Pattern Entropy: 1.961
+Layer 1:
+  Confidence: 0.480
+  Pred Error: 0.105
+  Penult Flow: 1.757
+  Continue Flow: 14.421
+  Pattern Entropy: 1.975
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.580
+  Continue Flow: 0.000
+  Pattern Entropy: 1.927
+Seed 1, Epoch 80: Train Loss = 3.2393, Test Loss = 3.3535
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.132
+  Penult Flow: 3.795
+  Continue Flow: 25.556
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 2.563
+  Continue Flow: 14.914
+  Pattern Entropy: 1.982
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.683
+  Continue Flow: 0.000
+  Pattern Entropy: 1.964
+Seed 1, Epoch 85: Train Loss = 3.1591, Test Loss = 3.3443
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.125
+  Penult Flow: 3.262
+  Continue Flow: 25.106
+  Pattern Entropy: 1.981
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.126
+  Penult Flow: 2.799
+  Continue Flow: 14.801
+  Pattern Entropy: 1.988
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.079
+  Continue Flow: 0.000
+  Pattern Entropy: 1.968
+Seed 1, Epoch 90: Train Loss = 3.2168, Test Loss = 3.4235
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.131
+  Penult Flow: 3.670
+  Continue Flow: 25.990
+  Pattern Entropy: 1.979
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.124
+  Penult Flow: 2.473
+  Continue Flow: 16.072
+  Pattern Entropy: 1.989
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.743
+  Continue Flow: 0.000
+  Pattern Entropy: 1.958
+Seed 1, Epoch 95: Train Loss = 3.2309, Test Loss = 3.3419
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.127
+  Penult Flow: 3.554
+  Continue Flow: 26.234
+  Pattern Entropy: 1.984
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 2.469
+  Continue Flow: 15.808
+  Pattern Entropy: 1.983
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.725
+  Continue Flow: 0.000
+  Pattern Entropy: 1.960
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 85.4049, Test Loss = 72.1966
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.122
+  Penult Flow: 1.366
+  Continue Flow: 24.974
+  Pattern Entropy: 1.913
+Layer 1:
+  Confidence: 0.472
+  Pred Error: 0.137
+  Penult Flow: 1.183
+  Continue Flow: 11.310
+  Pattern Entropy: 1.913
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.624
+  Continue Flow: 0.000
+  Pattern Entropy: 1.933
+Seed 2, Epoch 5: Train Loss = 15.8194, Test Loss = 9.4033
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.124
+  Penult Flow: 3.161
+  Continue Flow: 26.461
+  Pattern Entropy: 1.956
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.155
+  Penult Flow: 2.555
+  Continue Flow: 11.910
+  Pattern Entropy: 1.970
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.779
+  Continue Flow: 0.000
+  Pattern Entropy: 1.955
+Seed 2, Epoch 10: Train Loss = 4.3068, Test Loss = 4.0162
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.122
+  Penult Flow: 3.633
+  Continue Flow: 26.281
+  Pattern Entropy: 1.939
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.147
+  Penult Flow: 2.576
+  Continue Flow: 13.295
+  Pattern Entropy: 1.970
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.405
+  Continue Flow: 0.000
+  Pattern Entropy: 1.972
+Seed 2, Epoch 15: Train Loss = 3.7238, Test Loss = 4.4462
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 3.849
+  Continue Flow: 26.569
+  Pattern Entropy: 1.944
+Layer 1:
+  Confidence: 0.465
+  Pred Error: 0.165
+  Penult Flow: 2.856
+  Continue Flow: 14.337
+  Pattern Entropy: 1.945
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.613
+  Continue Flow: 0.000
+  Pattern Entropy: 1.945
+Seed 2, Epoch 20: Train Loss = 3.7583, Test Loss = 3.8368
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.136
+  Penult Flow: 4.614
+  Continue Flow: 26.967
+  Pattern Entropy: 1.960
+Layer 1:
+  Confidence: 0.466
+  Pred Error: 0.162
+  Penult Flow: 2.973
+  Continue Flow: 14.889
+  Pattern Entropy: 1.947
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.630
+  Continue Flow: 0.000
+  Pattern Entropy: 1.944
+Seed 2, Epoch 25: Train Loss = 3.8891, Test Loss = 3.8238
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.122
+  Penult Flow: 3.427
+  Continue Flow: 26.169
+  Pattern Entropy: 1.933
+Layer 1:
+  Confidence: 0.468
+  Pred Error: 0.153
+  Penult Flow: 2.551
+  Continue Flow: 13.882
+  Pattern Entropy: 1.970
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.428
+  Continue Flow: 0.000
+  Pattern Entropy: 1.966
+Seed 2, Epoch 30: Train Loss = 3.6873, Test Loss = 3.8052
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.130
+  Penult Flow: 4.482
+  Continue Flow: 26.743
+  Pattern Entropy: 1.955
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.154
+  Penult Flow: 2.569
+  Continue Flow: 14.706
+  Pattern Entropy: 1.968
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.395
+  Continue Flow: 0.000
+  Pattern Entropy: 1.964
+Seed 2, Epoch 35: Train Loss = 3.7156, Test Loss = 3.8470
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.127
+  Penult Flow: 3.790
+  Continue Flow: 26.956
+  Pattern Entropy: 1.946
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.143
+  Penult Flow: 2.399
+  Continue Flow: 14.361
+  Pattern Entropy: 1.980
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.393
+  Continue Flow: 0.000
+  Pattern Entropy: 1.971
+Seed 2, Epoch 40: Train Loss = 4.0521, Test Loss = 3.8097
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.123
+  Penult Flow: 3.236
+  Continue Flow: 26.557
+  Pattern Entropy: 1.928
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.156
+  Penult Flow: 2.794
+  Continue Flow: 14.436
+  Pattern Entropy: 1.951
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.561
+  Continue Flow: 0.000
+  Pattern Entropy: 1.948
+Seed 2, Epoch 45: Train Loss = 3.7440, Test Loss = 3.7709
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.129
+  Penult Flow: 4.322
+  Continue Flow: 26.480
+  Pattern Entropy: 1.957
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.154
+  Penult Flow: 2.521
+  Continue Flow: 14.603
+  Pattern Entropy: 1.970
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.445
+  Continue Flow: 0.000
+  Pattern Entropy: 1.962
+Seed 2, Epoch 50: Train Loss = 3.6916, Test Loss = 4.4545
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.131
+  Penult Flow: 4.304
+  Continue Flow: 26.564
+  Pattern Entropy: 1.955
+Layer 1:
+  Confidence: 0.468
+  Pred Error: 0.150
+  Penult Flow: 2.615
+  Continue Flow: 15.290
+  Pattern Entropy: 1.970
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.478
+  Continue Flow: 0.000
+  Pattern Entropy: 1.968
+Seed 2, Epoch 55: Train Loss = 3.7272, Test Loss = 3.8426
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.119
+  Penult Flow: 3.327
+  Continue Flow: 26.002
+  Pattern Entropy: 1.926
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.155
+  Penult Flow: 2.651
+  Continue Flow: 14.334
+  Pattern Entropy: 1.962
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.475
+  Continue Flow: 0.000
+  Pattern Entropy: 1.958
+Seed 2, Epoch 60: Train Loss = 3.6774, Test Loss = 3.8033
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.469
+  Pred Error: 0.147
+  Penult Flow: 5.599
+  Continue Flow: 26.625
+  Pattern Entropy: 1.969
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.156
+  Penult Flow: 2.803
+  Continue Flow: 16.549
+  Pattern Entropy: 1.955
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.571
+  Continue Flow: 0.000
+  Pattern Entropy: 1.955
+Seed 2, Epoch 65: Train Loss = 3.6834, Test Loss = 3.8017
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.119
+  Penult Flow: 3.450
+  Continue Flow: 26.887
+  Pattern Entropy: 1.934
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.149
+  Penult Flow: 2.601
+  Continue Flow: 15.293
+  Pattern Entropy: 1.969
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.480
+  Continue Flow: 0.000
+  Pattern Entropy: 1.965
+Seed 2, Epoch 70: Train Loss = 3.6934, Test Loss = 3.8418
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.132
+  Penult Flow: 4.151
+  Continue Flow: 26.457
+  Pattern Entropy: 1.951
+Layer 1:
+  Confidence: 0.466
+  Pred Error: 0.160
+  Penult Flow: 3.016
+  Continue Flow: 15.618
+  Pattern Entropy: 1.941
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.672
+  Continue Flow: 0.000
+  Pattern Entropy: 1.940
+Seed 2, Epoch 75: Train Loss = 3.7638, Test Loss = 3.7941
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.138
+  Penult Flow: 4.983
+  Continue Flow: 26.165
+  Pattern Entropy: 1.968
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.149
+  Penult Flow: 2.525
+  Continue Flow: 16.341
+  Pattern Entropy: 1.969
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.431
+  Continue Flow: 0.000
+  Pattern Entropy: 1.969
+Seed 2, Epoch 80: Train Loss = 3.6903, Test Loss = 3.7893
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 3.937
+  Continue Flow: 26.533
+  Pattern Entropy: 1.947
+Layer 1:
+  Confidence: 0.471
+  Pred Error: 0.141
+  Penult Flow: 2.431
+  Continue Flow: 15.244
+  Pattern Entropy: 1.979
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.372
+  Continue Flow: 0.000
+  Pattern Entropy: 1.970
+Seed 2, Epoch 85: Train Loss = 3.7278, Test Loss = 3.8064
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 3.581
+  Continue Flow: 26.092
+  Pattern Entropy: 1.932
+Layer 1:
+  Confidence: 0.471
+  Pred Error: 0.139
+  Penult Flow: 2.263
+  Continue Flow: 14.657
+  Pattern Entropy: 1.980
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.271
+  Continue Flow: 0.000
+  Pattern Entropy: 1.975
+Seed 2, Epoch 90: Train Loss = 3.8693, Test Loss = 3.7759
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.132
+  Penult Flow: 4.315
+  Continue Flow: 26.323
+  Pattern Entropy: 1.955
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.157
+  Penult Flow: 2.846
+  Continue Flow: 15.184
+  Pattern Entropy: 1.946
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.733
+  Continue Flow: 0.000
+  Pattern Entropy: 1.945
+Seed 2, Epoch 95: Train Loss = 3.9303, Test Loss = 3.8016
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.472
+  Pred Error: 0.134
+  Penult Flow: 4.656
+  Continue Flow: 27.556
+  Pattern Entropy: 1.961
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.148
+  Penult Flow: 2.677
+  Continue Flow: 15.575
+  Pattern Entropy: 1.963
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.579
+  Continue Flow: 0.000
+  Pattern Entropy: 1.957
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 83.0583, Test Loss = 77.6353
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.100
+  Penult Flow: 1.460
+  Continue Flow: 24.664
+  Pattern Entropy: 1.913
+Layer 1:
+  Confidence: 0.482
+  Pred Error: 0.095
+  Penult Flow: 1.012
+  Continue Flow: 10.750
+  Pattern Entropy: 1.909
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.794
+  Continue Flow: 0.000
+  Pattern Entropy: 1.910
+Seed 3, Epoch 5: Train Loss = 28.5371, Test Loss = 22.5887
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.126
+  Penult Flow: 3.750
+  Continue Flow: 26.059
+  Pattern Entropy: 1.905
+Layer 1:
+  Confidence: 0.474
+  Pred Error: 0.129
+  Penult Flow: 2.162
+  Continue Flow: 10.824
+  Pattern Entropy: 1.932
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.680
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 3, Epoch 10: Train Loss = 10.4979, Test Loss = 7.7248
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.143
+  Penult Flow: 5.128
+  Continue Flow: 25.529
+  Pattern Entropy: 1.909
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.146
+  Penult Flow: 3.883
+  Continue Flow: 12.058
+  Pattern Entropy: 1.947
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.183
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 3, Epoch 15: Train Loss = 5.3875, Test Loss = 5.7004
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.469
+  Pred Error: 0.146
+  Penult Flow: 4.887
+  Continue Flow: 27.236
+  Pattern Entropy: 1.913
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.148
+  Penult Flow: 4.490
+  Continue Flow: 14.600
+  Pattern Entropy: 1.956
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.720
+  Continue Flow: 0.000
+  Pattern Entropy: 1.992
+Seed 3, Epoch 20: Train Loss = 4.1318, Test Loss = 4.6106
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.469
+  Pred Error: 0.148
+  Penult Flow: 4.670
+  Continue Flow: 29.125
+  Pattern Entropy: 1.910
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.150
+  Penult Flow: 4.191
+  Continue Flow: 16.105
+  Pattern Entropy: 1.938
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.331
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 3, Epoch 25: Train Loss = 3.4947, Test Loss = 3.7498
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.146
+  Penult Flow: 4.710
+  Continue Flow: 28.328
+  Pattern Entropy: 1.912
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.149
+  Penult Flow: 4.888
+  Continue Flow: 16.655
+  Pattern Entropy: 1.972
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.140
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 3, Epoch 30: Train Loss = 3.4133, Test Loss = 3.6438
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.467
+  Pred Error: 0.154
+  Penult Flow: 4.668
+  Continue Flow: 29.077
+  Pattern Entropy: 1.911
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.149
+  Penult Flow: 4.077
+  Continue Flow: 17.261
+  Pattern Entropy: 1.941
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.503
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 3, Epoch 35: Train Loss = 3.3368, Test Loss = 3.6716
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.153
+  Penult Flow: 4.643
+  Continue Flow: 27.601
+  Pattern Entropy: 1.913
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.146
+  Penult Flow: 4.302
+  Continue Flow: 15.975
+  Pattern Entropy: 1.950
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.894
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Seed 3, Epoch 40: Train Loss = 3.4048, Test Loss = 3.5809
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.154
+  Penult Flow: 4.767
+  Continue Flow: 28.411
+  Pattern Entropy: 1.911
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.146
+  Penult Flow: 4.063
+  Continue Flow: 16.837
+  Pattern Entropy: 1.939
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.989
+  Continue Flow: 0.000
+  Pattern Entropy: 1.982
+Seed 3, Epoch 45: Train Loss = 3.3430, Test Loss = 3.5103
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.466
+  Pred Error: 0.159
+  Penult Flow: 4.732
+  Continue Flow: 26.662
+  Pattern Entropy: 1.913
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.146
+  Penult Flow: 4.148
+  Continue Flow: 15.962
+  Pattern Entropy: 1.946
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.089
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 3, Epoch 50: Train Loss = 3.3294, Test Loss = 3.4729
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.153
+  Penult Flow: 4.659
+  Continue Flow: 27.919
+  Pattern Entropy: 1.908
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.144
+  Penult Flow: 4.156
+  Continue Flow: 16.762
+  Pattern Entropy: 1.933
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.913
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 3, Epoch 55: Train Loss = 3.3647, Test Loss = 3.6024
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.146
+  Penult Flow: 4.763
+  Continue Flow: 29.053
+  Pattern Entropy: 1.913
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.149
+  Penult Flow: 4.729
+  Continue Flow: 18.172
+  Pattern Entropy: 1.965
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.425
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 3, Epoch 60: Train Loss = 3.3741, Test Loss = 3.4916
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.467
+  Pred Error: 0.158
+  Penult Flow: 4.742
+  Continue Flow: 28.091
+  Pattern Entropy: 1.914
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.148
+  Penult Flow: 4.011
+  Continue Flow: 18.499
+  Pattern Entropy: 1.941
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.668
+  Continue Flow: 0.000
+  Pattern Entropy: 1.988
+Seed 3, Epoch 65: Train Loss = 3.3283, Test Loss = 3.5138
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.466
+  Pred Error: 0.159
+  Penult Flow: 4.684
+  Continue Flow: 26.289
+  Pattern Entropy: 1.911
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.145
+  Penult Flow: 4.480
+  Continue Flow: 16.986
+  Pattern Entropy: 1.957
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.041
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 3, Epoch 70: Train Loss = 3.3844, Test Loss = 3.5860
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.154
+  Penult Flow: 4.661
+  Continue Flow: 28.020
+  Pattern Entropy: 1.910
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.149
+  Penult Flow: 4.102
+  Continue Flow: 18.732
+  Pattern Entropy: 1.939
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.857
+  Continue Flow: 0.000
+  Pattern Entropy: 1.977
+Seed 3, Epoch 75: Train Loss = 3.7746, Test Loss = 3.5041
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.151
+  Penult Flow: 4.738
+  Continue Flow: 25.586
+  Pattern Entropy: 1.915
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.142
+  Penult Flow: 4.132
+  Continue Flow: 16.695
+  Pattern Entropy: 1.946
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.032
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 3, Epoch 80: Train Loss = 3.3954, Test Loss = 3.5428
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.466
+  Pred Error: 0.158
+  Penult Flow: 4.737
+  Continue Flow: 26.181
+  Pattern Entropy: 1.914
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.147
+  Penult Flow: 4.243
+  Continue Flow: 16.414
+  Pattern Entropy: 1.946
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.765
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Seed 3, Epoch 85: Train Loss = 3.4060, Test Loss = 3.5250
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.467
+  Pred Error: 0.154
+  Penult Flow: 4.749
+  Continue Flow: 25.685
+  Pattern Entropy: 1.913
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.148
+  Penult Flow: 4.213
+  Continue Flow: 16.507
+  Pattern Entropy: 1.947
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.432
+  Continue Flow: 0.000
+  Pattern Entropy: 1.971
+Seed 3, Epoch 90: Train Loss = 3.3035, Test Loss = 3.5423
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.468
+  Pred Error: 0.152
+  Penult Flow: 4.724
+  Continue Flow: 26.508
+  Pattern Entropy: 1.906
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.144
+  Penult Flow: 4.257
+  Continue Flow: 16.696
+  Pattern Entropy: 1.940
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.908
+  Continue Flow: 0.000
+  Pattern Entropy: 1.984
+Seed 3, Epoch 95: Train Loss = 3.3128, Test Loss = 3.4657
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.466
+  Pred Error: 0.160
+  Penult Flow: 4.792
+  Continue Flow: 27.263
+  Pattern Entropy: 1.910
+Layer 1:
+  Confidence: 0.471
+  Pred Error: 0.141
+  Penult Flow: 3.719
+  Continue Flow: 18.919
+  Pattern Entropy: 1.920
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.775
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 89.8078, Test Loss = 77.7441
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.483
+  Pred Error: 0.091
+  Penult Flow: 1.326
+  Continue Flow: 25.342
+  Pattern Entropy: 1.901
+Layer 1:
+  Confidence: 0.477
+  Pred Error: 0.117
+  Penult Flow: 0.964
+  Continue Flow: 9.446
+  Pattern Entropy: 1.912
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.281
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 4, Epoch 5: Train Loss = 50.7609, Test Loss = 52.4338
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.481
+  Pred Error: 0.101
+  Penult Flow: 3.418
+  Continue Flow: 32.259
+  Pattern Entropy: 1.893
+Layer 1:
+  Confidence: 0.475
+  Pred Error: 0.126
+  Penult Flow: 2.068
+  Continue Flow: 19.318
+  Pattern Entropy: 1.912
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.804
+  Continue Flow: 0.000
+  Pattern Entropy: 1.912
+Seed 4, Epoch 10: Train Loss = 16.1798, Test Loss = 9.1540
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 4.143
+  Continue Flow: 30.323
+  Pattern Entropy: 1.971
+Layer 1:
+  Confidence: 0.473
+  Pred Error: 0.131
+  Penult Flow: 3.018
+  Continue Flow: 13.303
+  Pattern Entropy: 1.973
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.152
+  Continue Flow: 0.000
+  Pattern Entropy: 1.986
+Seed 4, Epoch 15: Train Loss = 5.4367, Test Loss = 4.3623
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.478
+  Pred Error: 0.114
+  Penult Flow: 4.674
+  Continue Flow: 31.082
+  Pattern Entropy: 1.969
+Layer 1:
+  Confidence: 0.467
+  Pred Error: 0.157
+  Penult Flow: 4.590
+  Continue Flow: 15.475
+  Pattern Entropy: 1.974
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.525
+  Continue Flow: 0.000
+  Pattern Entropy: 1.987
+Seed 4, Epoch 20: Train Loss = 4.5206, Test Loss = 3.8978
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.131
+  Penult Flow: 4.696
+  Continue Flow: 24.974
+  Pattern Entropy: 1.948
+Layer 1:
+  Confidence: 0.468
+  Pred Error: 0.151
+  Penult Flow: 3.984
+  Continue Flow: 11.127
+  Pattern Entropy: 1.954
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.551
+  Continue Flow: 0.000
+  Pattern Entropy: 1.989
+Seed 4, Epoch 25: Train Loss = 4.4873, Test Loss = 3.8052
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.123
+  Penult Flow: 4.337
+  Continue Flow: 26.589
+  Pattern Entropy: 1.965
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.143
+  Penult Flow: 3.459
+  Continue Flow: 12.836
+  Pattern Entropy: 1.934
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.528
+  Continue Flow: 0.000
+  Pattern Entropy: 1.971
+Seed 4, Epoch 30: Train Loss = 4.3479, Test Loss = 3.8595
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.474
+  Pred Error: 0.128
+  Penult Flow: 4.982
+  Continue Flow: 25.820
+  Pattern Entropy: 1.936
+Layer 1:
+  Confidence: 0.466
+  Pred Error: 0.158
+  Penult Flow: 5.028
+  Continue Flow: 12.734
+  Pattern Entropy: 1.975
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.874
+  Continue Flow: 0.000
+  Pattern Entropy: 1.940
+Seed 4, Epoch 35: Train Loss = 4.3606, Test Loss = 3.8188
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.124
+  Penult Flow: 4.716
+  Continue Flow: 29.680
+  Pattern Entropy: 1.971
+Layer 1:
+  Confidence: 0.468
+  Pred Error: 0.152
+  Penult Flow: 3.924
+  Continue Flow: 13.769
+  Pattern Entropy: 1.959
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.277
+  Continue Flow: 0.000
+  Pattern Entropy: 1.959
+Seed 4, Epoch 40: Train Loss = 4.3915, Test Loss = 3.8501
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.124
+  Penult Flow: 4.265
+  Continue Flow: 32.582
+  Pattern Entropy: 1.964
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.144
+  Penult Flow: 3.415
+  Continue Flow: 15.004
+  Pattern Entropy: 1.939
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.944
+  Continue Flow: 0.000
+  Pattern Entropy: 1.956
+Seed 4, Epoch 45: Train Loss = 4.4669, Test Loss = 3.9535
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.470
+  Pred Error: 0.142
+  Penult Flow: 4.908
+  Continue Flow: 29.469
+  Pattern Entropy: 1.901
+Layer 1:
+  Confidence: 0.471
+  Pred Error: 0.140
+  Penult Flow: 3.451
+  Continue Flow: 13.377
+  Pattern Entropy: 1.939
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.533
+  Continue Flow: 0.000
+  Pattern Entropy: 1.981
+Seed 4, Epoch 50: Train Loss = 4.4036, Test Loss = 3.7467
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.139
+  Penult Flow: 4.457
+  Continue Flow: 29.165
+  Pattern Entropy: 1.958
+Layer 1:
+  Confidence: 0.468
+  Pred Error: 0.151
+  Penult Flow: 3.342
+  Continue Flow: 12.708
+  Pattern Entropy: 1.942
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.971
+  Continue Flow: 0.000
+  Pattern Entropy: 1.920
+Seed 4, Epoch 55: Train Loss = 4.5477, Test Loss = 3.7409
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.125
+  Penult Flow: 4.611
+  Continue Flow: 30.222
+  Pattern Entropy: 1.973
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.146
+  Penult Flow: 3.820
+  Continue Flow: 16.622
+  Pattern Entropy: 1.954
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.275
+  Continue Flow: 0.000
+  Pattern Entropy: 1.953
+Seed 4, Epoch 60: Train Loss = 4.4475, Test Loss = 3.8104
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.124
+  Penult Flow: 4.074
+  Continue Flow: 26.476
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.471
+  Pred Error: 0.140
+  Penult Flow: 2.785
+  Continue Flow: 12.674
+  Pattern Entropy: 1.889
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.913
+  Continue Flow: 0.000
+  Pattern Entropy: 1.939
+Seed 4, Epoch 65: Train Loss = 4.2736, Test Loss = 3.4277
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.141
+  Penult Flow: 4.753
+  Continue Flow: 28.193
+  Pattern Entropy: 1.956
+Layer 1:
+  Confidence: 0.473
+  Pred Error: 0.133
+  Penult Flow: 3.449
+  Continue Flow: 16.050
+  Pattern Entropy: 1.928
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 3.021
+  Continue Flow: 0.000
+  Pattern Entropy: 1.985
+Seed 4, Epoch 70: Train Loss = 3.6606, Test Loss = 2.9776
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.471
+  Pred Error: 0.138
+  Penult Flow: 4.691
+  Continue Flow: 31.492
+  Pattern Entropy: 1.948
+Layer 1:
+  Confidence: 0.470
+  Pred Error: 0.143
+  Penult Flow: 3.986
+  Continue Flow: 17.101
+  Pattern Entropy: 1.954
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.714
+  Continue Flow: 0.000
+  Pattern Entropy: 1.971
+Seed 4, Epoch 75: Train Loss = 3.5480, Test Loss = 2.9397
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.121
+  Penult Flow: 4.653
+  Continue Flow: 26.164
+  Pattern Entropy: 1.950
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.147
+  Penult Flow: 4.588
+  Continue Flow: 14.156
+  Pattern Entropy: 1.971
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.900
+  Continue Flow: 0.000
+  Pattern Entropy: 1.981
+Seed 4, Epoch 80: Train Loss = 3.4925, Test Loss = 2.9351
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.473
+  Pred Error: 0.131
+  Penult Flow: 4.301
+  Continue Flow: 32.378
+  Pattern Entropy: 1.978
+Layer 1:
+  Confidence: 0.471
+  Pred Error: 0.139
+  Penult Flow: 3.500
+  Continue Flow: 18.382
+  Pattern Entropy: 1.933
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.282
+  Continue Flow: 0.000
+  Pattern Entropy: 1.980
+Seed 4, Epoch 85: Train Loss = 3.4108, Test Loss = 2.8985
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.476
+  Pred Error: 0.120
+  Penult Flow: 4.443
+  Continue Flow: 31.824
+  Pattern Entropy: 1.969
+Layer 1:
+  Confidence: 0.471
+  Pred Error: 0.142
+  Penult Flow: 3.287
+  Continue Flow: 18.598
+  Pattern Entropy: 1.976
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.191
+  Continue Flow: 0.000
+  Pattern Entropy: 1.957
+Seed 4, Epoch 90: Train Loss = 3.1662, Test Loss = 2.6715
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.475
+  Pred Error: 0.122
+  Penult Flow: 3.964
+  Continue Flow: 28.148
+  Pattern Entropy: 1.968
+Layer 1:
+  Confidence: 0.472
+  Pred Error: 0.136
+  Penult Flow: 3.494
+  Continue Flow: 15.151
+  Pattern Entropy: 1.954
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 1.943
+  Continue Flow: 0.000
+  Pattern Entropy: 1.983
+Seed 4, Epoch 95: Train Loss = 3.2548, Test Loss = 2.6189
+
+Layer Statistics:
+Layer 0:
+  Confidence: 0.477
+  Pred Error: 0.115
+  Penult Flow: 3.930
+  Continue Flow: 29.938
+  Pattern Entropy: 1.967
+Layer 1:
+  Confidence: 0.469
+  Pred Error: 0.146
+  Penult Flow: 4.064
+  Continue Flow: 17.232
+  Pattern Entropy: 1.965
+Layer 2:
+  Confidence: 1.000
+  Pred Error: 0.000
+  Penult Flow: 2.286
+  Continue Flow: 0.000
+  Pattern Entropy: 1.981
+Completed language experiments successfully
+Standard: 3.2401 ± 0.3390
+Predictive: 3.6611 ± 0.6490
+p-value: 0.2833
+
+Results saved to new_experiment_results.json

@@ -1,10 +1,10 @@
 import json
 import numpy as np
-from experiment_harness import ExperimentHarness, create_standard_net, create_predictive_net, run_comparison
+from experiment_harness import run_comparison
 from data_generators import generate_switching_sine_data, generate_lorenz_data, generate_mixed_frequency_data, generate_memory_data, generate_language_data
 from scipy import stats
 
-def run_all_experiments(output_file="new_experiment_results.json", n_patterns=8):
+def run_all_experiments(output_file="new_experiment_results.json", n_patterns=4, n_levels=2, compression_factor=2):
     data_generators = {
         "lorenz": generate_lorenz_data,
         "memory": generate_memory_data,
@@ -15,7 +15,7 @@ def run_all_experiments(output_file="new_experiment_results.json", n_patterns=8)
     for data_name, data_generator in data_generators.items():
         print(f"\nRunning experiments for {data_name} data...")
         try:
-            results = run_comparison(data_generator, n_seeds=5, n_patterns=n_patterns)
+            results = run_comparison(data_generator, n_seeds=5, n_patterns=n_patterns, n_levels=n_levels, compression_factor=compression_factor)
             all_results[data_name] = {
                 "standard_losses": results["standard_losses"],
                 "predictive_losses": results["predictive_losses"],
@@ -51,4 +51,4 @@ def run_all_experiments(output_file="new_experiment_results.json", n_patterns=8)
 
 
 if __name__ == "__main__":
-    results = run_all_experiments(n_patterns=8) # Specify the desired number of patterns here.
+    results = run_all_experiments(n_patterns=4, n_levels=2, compression_factor=2) # Specify the desired number of patterns here.

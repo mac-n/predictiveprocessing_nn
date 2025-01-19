@@ -6,6 +6,9 @@ from dataclasses import dataclass
 from typing import Dict, List, Optional, Any
 from torch.utils.data import DataLoader, TensorDataset
 import pandas as pd
+from hierarchical_net import HierarchicalPatternPredictiveNet, HierarchicalLayerStats
+import torch.nn.functional as F
+
 
 @dataclass
 class EpochStats:
@@ -50,7 +53,11 @@ class ExperimentHarness:
     
     def collect_epoch_stats(self, model, epoch_loss: float, pred_loss: Optional[float] = None) -> EpochStats:
         """Collect statistics from all layers for the epoch"""
-        layer_stats = model.get_layer_stats()
+        if isinstance(model, HierarchicalPatternPredictiveNet):
+            layer_stats = model.get_layer_stats()
+        else:
+           return None
+            
         
         # Initialize aggregates
         confidences = {}
@@ -66,7 +73,17 @@ class ExperimentHarness:
             pred_errors[idx] = float(torch.mean(stats.prediction_errors).item())
             penult_flows[idx] = float(stats.penultimate_magnitude.item())
             cont_flows[idx] = float(stats.continue_magnitude.item())
-            entropies[idx] = float(stats.pattern_entropy)
+            
+            # Calculate entropy from pattern usage
+            if hasattr(stats, 'pattern_usage_per_level') and stats.pattern_usage_per_level:
+                pattern_entropy = 0
+                for usage in stats.pattern_usage_per_level:
+                    probs = F.softmax(usage, dim=-1)
+                    entropy = -torch.sum(probs * torch.log2(probs + 1e-8))
+                    pattern_entropy += entropy / len(stats.pattern_usage_per_level)  # Average entropy across levels
+                entropies[idx] = float(pattern_entropy.item())
+            else:
+                entropies[idx] = None
         
         return EpochStats(
             layer_confidences=confidences,
@@ -154,13 +171,14 @@ class ExperimentHarness:
             prediction_errors.append(avg_pred_loss)
             
              # Update temperatures for discrete model
-            if hasattr(model, 'update_temperatures'):
-                model.update_temperatures()
+            if hasattr(model, 'update_temperatures') and callable(getattr(model, 'update_temperatures')):
+               model.update_temperatures()
                 
             # Collect statistics only for predictive network
-            if hasattr(model, 'get_layer_stats'):
+            if isinstance(model, HierarchicalPatternPredictiveNet):
                 epoch_stats = self.collect_epoch_stats(model, avg_train_loss, avg_pred_loss)
-                epoch_stats_list.append(epoch_stats)
+                if epoch_stats:
+                    epoch_stats_list.append(epoch_stats)
             
             if epoch % self.eval_frequency == 0:
                 test_loss = self.evaluate_model(model, test_loader)
@@ -169,7 +187,7 @@ class ExperimentHarness:
                       f"Test Loss = {test_loss:.4f}")
                 
                 # Print layer statistics for predictive network
-                if hasattr(model, 'get_layer_stats'):
+                if isinstance(model, HierarchicalPatternPredictiveNet) and epoch_stats:
                     print("\nLayer Statistics:")
                     for layer_idx, conf in epoch_stats.layer_confidences.items():
                         print(f"Layer {layer_idx}:")
@@ -271,18 +289,19 @@ def create_standard_net(sequence_length=20, hidden_dims=[64, 32, 16]):
         nn.Linear(hidden_dims[2], 1)
     )
 
-def create_predictive_net(sequence_length=20, hidden_dims=[64, 32, 16], n_patterns=8):
-    """Create predictive network with new architecture"""
-    from discrete_predictive_net import DiscretePatternPredictiveNet
-    return DiscretePatternPredictiveNet(
+def create_hierarchical_net(sequence_length=20, hidden_dims=[64, 32, 16], n_patterns=4, n_levels=2, compression_factor=2):
+    """Create hierarchical predictive network with new architecture"""
+    return HierarchicalPatternPredictiveNet(
         input_dim=sequence_length,
         hidden_dims=hidden_dims,
         penultimate_dim=32,  # Size of integration layer
         output_dim=1,
-        n_patterns=n_patterns
+        patterns_per_level=n_patterns,
+        n_levels=n_levels,
+        compression_factor=compression_factor
     )
 
-def run_comparison(data_generator, n_seeds=5, n_patterns=8):
+def run_comparison(data_generator, n_seeds=5, n_patterns=4, n_levels=2, compression_factor=2):
     """Run comparison between standard and predictive networks"""
     # Standard network experiment
     standard_harness = ExperimentHarness(
@@ -294,9 +313,9 @@ def run_comparison(data_generator, n_seeds=5, n_patterns=8):
     
     # Predictive network experiment
     predictive_harness = ExperimentHarness(
-    data_generator=data_generator,
-    model_factory=lambda: create_predictive_net(n_patterns=n_patterns),
-    n_seeds=n_seeds
+        data_generator=data_generator,
+        model_factory=lambda: create_hierarchical_net(n_patterns=n_patterns, n_levels=n_levels, compression_factor=compression_factor),
+        n_seeds=n_seeds
     )
     predictive_results = predictive_harness.run_experiment()
 

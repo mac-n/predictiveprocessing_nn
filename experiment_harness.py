@@ -16,6 +16,8 @@ class EpochStats:
     continue_flows: Dict[int, float]     # Average flow upward per layer
     train_loss: float
     prediction_loss: Optional[float] = None
+    pattern_entropy: Dict[int, float] = None # Average pattern entropy per layer
+
 
 @dataclass
 class ExperimentResult:
@@ -55,6 +57,7 @@ class ExperimentHarness:
         pred_errors = {}
         penult_flows = {}
         cont_flows = {}
+        entropies = {}
         
         # Aggregate stats across layers
         for stats in layer_stats:
@@ -63,6 +66,7 @@ class ExperimentHarness:
             pred_errors[idx] = float(torch.mean(stats.prediction_errors).item())
             penult_flows[idx] = float(stats.penultimate_magnitude.item())
             cont_flows[idx] = float(stats.continue_magnitude.item())
+            entropies[idx] = float(stats.pattern_entropy)
         
         return EpochStats(
             layer_confidences=confidences,
@@ -70,7 +74,8 @@ class ExperimentHarness:
             penultimate_flows=penult_flows,
             continue_flows=cont_flows,
             train_loss=epoch_loss,
-            prediction_loss=pred_loss
+            prediction_loss=pred_loss,
+            pattern_entropy=entropies
         )
 
     def analyze_epoch_stats(self, epoch_stats: List[EpochStats]) -> pd.DataFrame:
@@ -87,7 +92,8 @@ class ExperimentHarness:
                     'penult_flow': stats.penultimate_flows[layer_idx],
                     'continue_flow': stats.continue_flows[layer_idx],
                     'train_loss': stats.train_loss,
-                    'pred_loss': stats.prediction_loss
+                    'pred_loss': stats.prediction_loss,
+                    'pattern_entropy': stats.pattern_entropy[layer_idx] if stats.pattern_entropy is not None else None
                 })
         
         return pd.DataFrame(records)
@@ -147,6 +153,10 @@ class ExperimentHarness:
             avg_pred_loss = np.mean(epoch_pred_errors) if epoch_pred_errors else None
             prediction_errors.append(avg_pred_loss)
             
+             # Update temperatures for discrete model
+            if hasattr(model, 'update_temperatures'):
+                model.update_temperatures()
+                
             # Collect statistics only for predictive network
             if hasattr(model, 'get_layer_stats'):
                 epoch_stats = self.collect_epoch_stats(model, avg_train_loss, avg_pred_loss)
@@ -167,6 +177,7 @@ class ExperimentHarness:
                         print(f"  Pred Error: {epoch_stats.layer_pred_errors[layer_idx]:.3f}")
                         print(f"  Penult Flow: {epoch_stats.penultimate_flows[layer_idx]:.3f}")
                         print(f"  Continue Flow: {epoch_stats.continue_flows[layer_idx]:.3f}")
+                        print(f"  Pattern Entropy: {epoch_stats.pattern_entropy[layer_idx]:.3f}")
         
         final_test_loss = self.evaluate_model(model, test_loader)
         
@@ -260,17 +271,18 @@ def create_standard_net(sequence_length=20, hidden_dims=[64, 32, 16]):
         nn.Linear(hidden_dims[2], 1)
     )
 
-def create_predictive_net(sequence_length=20, hidden_dims=[64, 32, 16]):
+def create_predictive_net(sequence_length=20, hidden_dims=[64, 32, 16], n_patterns=8):
     """Create predictive network with new architecture"""
-    from predictive_net import PatternPredictiveNet
-    return PatternPredictiveNet(
+    from discrete_predictive_net import DiscretePatternPredictiveNet
+    return DiscretePatternPredictiveNet(
         input_dim=sequence_length,
         hidden_dims=hidden_dims,
         penultimate_dim=32,  # Size of integration layer
-        output_dim=1
+        output_dim=1,
+        n_patterns=n_patterns
     )
 
-def run_comparison(data_generator, n_seeds=5):
+def run_comparison(data_generator, n_seeds=5, n_patterns=8):
     """Run comparison between standard and predictive networks"""
     # Standard network experiment
     standard_harness = ExperimentHarness(
@@ -283,7 +295,7 @@ def run_comparison(data_generator, n_seeds=5):
     # Predictive network experiment
     predictive_harness = ExperimentHarness(
     data_generator=data_generator,
-    model_factory=lambda: create_predictive_net(),
+    model_factory=lambda: create_predictive_net(n_patterns=n_patterns),
     n_seeds=n_seeds
     )
     predictive_results = predictive_harness.run_experiment()
@@ -302,4 +314,4 @@ def run_comparison(data_generator, n_seeds=5):
         'p_value': p_value,
         'standard_losses': standard_losses,
         'predictive_losses': predictive_losses
-    }           
+    }

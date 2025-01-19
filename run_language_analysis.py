@@ -1,11 +1,11 @@
 from language_pattern_analyzer import analyze_language_patterns
-from predictive_net import PatternPredictiveNet
+from discrete_predictive_net import DiscretePatternPredictiveNet
 from experiment_harness import ExperimentHarness
 from data_generators import generate_language_data
 import torch
 
 def create_pattern_predictive_net():
-    return PatternPredictiveNet(
+    return DiscretePatternPredictiveNet(
         input_dim=20,  # sequence length
         hidden_dims=[64, 32, 16],
         penultimate_dim=32,

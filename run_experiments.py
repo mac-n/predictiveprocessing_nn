@@ -1,11 +1,10 @@
 import json
 import numpy as np
-from experiment_harness import ExperimentHarness, create_standard_net, create_predictive_net
+from experiment_harness import ExperimentHarness, create_standard_net, create_predictive_net, run_comparison
 from data_generators import generate_switching_sine_data, generate_lorenz_data, generate_mixed_frequency_data, generate_memory_data, generate_language_data
 from scipy import stats
 
-
-def run_all_experiments(output_file="new_experiment_results.json"):
+def run_all_experiments(output_file="new_experiment_results.json", n_patterns=8):
     data_generators = {
         "lorenz": generate_lorenz_data,
         "memory": generate_memory_data,
@@ -16,7 +15,7 @@ def run_all_experiments(output_file="new_experiment_results.json"):
     for data_name, data_generator in data_generators.items():
         print(f"\nRunning experiments for {data_name} data...")
         try:
-            results = run_comparison(data_generator, n_seeds=5)
+            results = run_comparison(data_generator, n_seeds=5, n_patterns=n_patterns)
             all_results[data_name] = {
                 "standard_losses": results["standard_losses"],
                 "predictive_losses": results["predictive_losses"],
@@ -50,39 +49,6 @@ def run_all_experiments(output_file="new_experiment_results.json"):
         
     return all_results
 
-def run_comparison(data_generator, n_seeds=5):
-    """Run comparison between standard and predictive networks"""
-    # Standard network experiment
-    standard_harness = ExperimentHarness(
-        data_generator=data_generator,
-        model_factory=lambda: create_standard_net(),
-        n_seeds=n_seeds
-    )
-    standard_results = standard_harness.run_experiment()
-    
-    # Predictive network experiment
-    predictive_harness = ExperimentHarness(
-        data_generator=data_generator,
-        model_factory=lambda: create_predictive_net(),
-        n_seeds=n_seeds
-    )
-    predictive_results = predictive_harness.run_experiment()
-    
-    # Statistical comparison
-    
-    standard_losses = [r.final_test_loss for r in standard_results.values()]
-    predictive_losses = [r.final_test_loss for r in predictive_results.values()]
-    
-    t_stat, p_value = stats.ttest_ind(standard_losses, predictive_losses)
-    
-    return {
-        'standard': standard_results,
-        'predictive': predictive_results,
-        't_stat': t_stat,
-        'p_value': p_value,
-        'standard_losses': standard_losses,
-        'predictive_losses': predictive_losses
-    }
 
 if __name__ == "__main__":
-    results = run_all_experiments()
+    results = run_all_experiments(n_patterns=8) # Specify the desired number of patterns here.

@@ -1,6 +1,6 @@
 # Training-Transparent Neural Networks
 
-Neural network architecture that learns interpretable features during training while improving performance on both chaotic systems and pattern recognition tasks. See https://mac-n.github.io for details.
+Neural network architecture that learns interpretable features during training while improving performance on both chaotic systems and pattern recognition tasks. [Read more about the architectural details and performance results](https://mac-n.github.io/).
 
 ## Key Results
 - Lorenz attractor prediction: p<0.0002 improvement over baseline

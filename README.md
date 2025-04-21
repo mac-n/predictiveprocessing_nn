@@ -9,7 +9,7 @@ This repository contains the implementation of Pattern Predictive Networks (PPNs
 The PPN architecture introduces two key components:
 
 1. **Pattern Dictionaries:** Each layer learns to compress information into interpretable 'patterns' via attention and predicts the patterns the *next* layer will use
-2. **Prediction-Error Based Routing:** Information flow is dynamically routed based on how accurately a layer predicts the next layer's pattern usage
+2. **Prediction-Error Based Routing:** Information flow is dynamically routed based on how accurately a layer anticipates how the next layer will compress its output using its patterns
 
 This combination allows for:
 - Direct observation of internal representations during training

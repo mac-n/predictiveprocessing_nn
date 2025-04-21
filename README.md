@@ -1,31 +1,12 @@
-# Pattern Predictive Networks (PPN)
+# Training Transparent Neural Networks with Learned Interpretable Features
 
-This repository contains the implementation of Pattern Predictive Networks (PPNs), a neural architecture designed for inherent transparency. PPNs learn interpretable internal representations through pattern dictionaries and use prediction-based routing to make information flow observable during both training and inference.
-
-**For a detailed explanation of the architecture, key results (including demonstrations on chaotic systems), and future directions towards transparent LLMs, please see the main project writeup:** [**https://mac-n.github.io/**](https://mac-n.github.io/)
-
-## Core Innovation
-
-The PPN architecture introduces two key components:
-
-1. **Pattern Dictionaries:** Each layer learns to compress information into interpretable 'patterns' via attention and predicts the patterns the *next* layer will use
-2. **Prediction-Error Based Routing:** Information flow is dynamically routed based on how accurately a layer anticipates how the next layer will compress its output using its patterns
-
-This combination allows for:
-- Direct observation of internal representations during training
-- Explicit tracking of information flow through the network
-- Transparency in both success and failure modes
+This repository contains the code for running experiments and visualizations related to the Pattern Predictive Network (PPN), introduced in our paper *Training Transparent Neural Networks with Learned Interpretable Features*. The PPN architecture is designed to maintain interpretability throughout training while achieving competitive performance on sequential prediction tasks.
 
 ## Installation
 
-This code is implemented in Python and relies on PyTorch for model training. To set up the environment:
+This code is implemented in Python and relies on PyTorch for model training. To set up the environment, install dependencies using:
 
 ```bash
-# Clone the repository
-git clone https://github.com/mac-n/predictiveprocessing_nn.git
-cd predictiveprocessing_nn
-
-# Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -37,54 +18,36 @@ To train and evaluate the models, run:
 python run_experiments.py
 ```
 
-This script will execute experiments primarily focused on chaotic sequence prediction (Lorenz attractor) and simple language modeling, as discussed in the main project writeup. Code for additional experiments (e.g., pattern memory) is also included. Results and logs are saved for analysis.
+This script will execute experiments on chaotic sequence prediction (Lorenz attractor), pattern memory tasks, and language modeling, logging the results for analysis.
 
 ## Visualizations
 
-To generate visualizations discussed in the project writeup:
+To generate visualizations of network behavior and information flow, use the following scripts:
 
 ```bash
-# Visualize base PPN patterns/behavior on Lorenz data
-python run_lorenz_viz_basemodel.py  
-
-# Track layer-wise pattern evolution (e.g., on Lorenz data)
-python visualize_layer_evolution.py 
-
-# Visualize pattern specialization (or lack thereof) on the language task
-python run_char_analysis.py         
+python run_lorenz_viz_basemodel.py  # Visualize base model on Lorenz data
+python run_lorenz_hierarchical.py   # Visualize hierarchical model on Lorenz data
+python visualize_layer_evolution.py # Track layer-wise pattern evolution
+python run_char_analysis.py         # Character-level analysis for language task
 ```
 
-Additional scripts for other experiments (e.g., hierarchical model variant, an adaptation of the architecture for more structured data such as pattern memory) are also included:
+## SHAP Analysis
 
-```bash
-# Visualize hierarchical model on Lorenz data (demonstrates transparent failure)
-python run_lorenz_hierarchical.py   
-```
+SHAP (SHapley Additive exPlanations) visualizations provide a comparison between our inherently interpretable model and traditional post-hoc interpretability methods. Due to the computational cost, we recommend running this in Google Colab:
 
-## Current Results
+- `SHAP_visualisation.ipynb`
 
-The base PPN architecture achieves:
-- 78% reduction in prediction error on chaotic Lorenz attractor data vs. standard neural networks
-- Comparable performance to standard networks on language prediction
-- Transparent internal representations that reveal how information is processed
+## Paper
 
-## Future Directions
+If you use this code or find it useful, please cite our work:
 
-We are currently working on:
-1. Integration with transformer mechanisms for improved language task performance
-2. Pattern-to-pattern attention for capturing higher-order relationships
-3. Scaling to larger models and more complex datasets
+> **Training Transparent Neural Networks with Learned Interpretable Features**\
+> Anonymous Authors 
 
-## Citation
+## Contact
 
-If you use this code in your research, please cite:
+For any questions, please reach out to the authors.
 
-```
-@misc{ppn2024,
-  author = {Mccombe,Niamh, Wong-Lin, KongFatt},
-  title = {Pattern Predictive Networks: Neural Architectures with Built-in Transparency},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/mac-n/predictiveprocessing_nn}
-}
-```
+
+
+

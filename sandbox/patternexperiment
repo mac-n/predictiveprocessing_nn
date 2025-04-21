@@ -1,0 +1,347 @@
+
+Running experiments for lorenz data...
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 53.3913, Test Loss = 29.6030
+Seed 0, Epoch 5: Train Loss = 1.2234, Test Loss = 0.9575
+Seed 0, Epoch 10: Train Loss = 0.3255, Test Loss = 0.5973
+Seed 0, Epoch 15: Train Loss = 0.1298, Test Loss = 0.1300
+Seed 0, Epoch 20: Train Loss = 0.1054, Test Loss = 0.0968
+Seed 0, Epoch 25: Train Loss = 0.0697, Test Loss = 0.0907
+Seed 0, Epoch 30: Train Loss = 0.0459, Test Loss = 0.1136
+Seed 0, Epoch 35: Train Loss = 0.0456, Test Loss = 0.0592
+Seed 0, Epoch 40: Train Loss = 0.0369, Test Loss = 0.0725
+Seed 0, Epoch 45: Train Loss = 0.0354, Test Loss = 0.0487
+Seed 0, Epoch 50: Train Loss = 0.0205, Test Loss = 0.0432
+Seed 0, Epoch 55: Train Loss = 0.0246, Test Loss = 0.0582
+Seed 0, Epoch 60: Train Loss = 0.0242, Test Loss = 0.0306
+Seed 0, Epoch 65: Train Loss = 0.0182, Test Loss = 0.0250
+Seed 0, Epoch 70: Train Loss = 0.0160, Test Loss = 0.0241
+Seed 0, Epoch 75: Train Loss = 0.0188, Test Loss = 0.0485
+Seed 0, Epoch 80: Train Loss = 0.0173, Test Loss = 0.0226
+Seed 0, Epoch 85: Train Loss = 0.0191, Test Loss = 0.0319
+Seed 0, Epoch 90: Train Loss = 0.0172, Test Loss = 0.0214
+Seed 0, Epoch 95: Train Loss = 0.0451, Test Loss = 0.0587
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 47.5131, Test Loss = 25.3475
+Seed 1, Epoch 5: Train Loss = 1.4002, Test Loss = 0.8415
+Seed 1, Epoch 10: Train Loss = 0.3165, Test Loss = 0.2374
+Seed 1, Epoch 15: Train Loss = 0.1224, Test Loss = 0.0924
+Seed 1, Epoch 20: Train Loss = 0.0965, Test Loss = 0.0807
+Seed 1, Epoch 25: Train Loss = 0.0831, Test Loss = 0.1485
+Seed 1, Epoch 30: Train Loss = 0.0733, Test Loss = 0.0486
+Seed 1, Epoch 35: Train Loss = 0.0597, Test Loss = 0.0470
+Seed 1, Epoch 40: Train Loss = 0.0489, Test Loss = 0.0495
+Seed 1, Epoch 45: Train Loss = 0.0613, Test Loss = 0.0265
+Seed 1, Epoch 50: Train Loss = 0.0326, Test Loss = 0.0302
+Seed 1, Epoch 55: Train Loss = 0.0349, Test Loss = 0.0273
+Seed 1, Epoch 60: Train Loss = 0.0354, Test Loss = 0.0220
+Seed 1, Epoch 65: Train Loss = 0.0252, Test Loss = 0.0240
+Seed 1, Epoch 70: Train Loss = 0.0331, Test Loss = 0.0294
+Seed 1, Epoch 75: Train Loss = 0.0162, Test Loss = 0.0225
+Seed 1, Epoch 80: Train Loss = 0.0240, Test Loss = 0.0207
+Seed 1, Epoch 85: Train Loss = 0.0203, Test Loss = 0.0341
+Seed 1, Epoch 90: Train Loss = 0.0292, Test Loss = 0.0192
+Seed 1, Epoch 95: Train Loss = 0.0123, Test Loss = 0.0139
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 52.8382, Test Loss = 30.8244
+Seed 2, Epoch 5: Train Loss = 1.1900, Test Loss = 0.8556
+Seed 2, Epoch 10: Train Loss = 0.3099, Test Loss = 0.2667
+Seed 2, Epoch 15: Train Loss = 0.0999, Test Loss = 0.0704
+Seed 2, Epoch 20: Train Loss = 0.0818, Test Loss = 0.0815
+Seed 2, Epoch 25: Train Loss = 0.0555, Test Loss = 0.0763
+Seed 2, Epoch 30: Train Loss = 0.0668, Test Loss = 0.0623
+Seed 2, Epoch 35: Train Loss = 0.0352, Test Loss = 0.0302
+Seed 2, Epoch 40: Train Loss = 0.0294, Test Loss = 0.0287
+Seed 2, Epoch 45: Train Loss = 0.0291, Test Loss = 0.0228
+Seed 2, Epoch 50: Train Loss = 0.0301, Test Loss = 0.0262
+Seed 2, Epoch 55: Train Loss = 0.0363, Test Loss = 0.0469
+Seed 2, Epoch 60: Train Loss = 0.0183, Test Loss = 0.0334
+Seed 2, Epoch 65: Train Loss = 0.1003, Test Loss = 0.1047
+Seed 2, Epoch 70: Train Loss = 0.0172, Test Loss = 0.0147
+Seed 2, Epoch 75: Train Loss = 0.0831, Test Loss = 0.0626
+Seed 2, Epoch 80: Train Loss = 0.0128, Test Loss = 0.0125
+Seed 2, Epoch 85: Train Loss = 0.0151, Test Loss = 0.0187
+Seed 2, Epoch 90: Train Loss = 0.0085, Test Loss = 0.0101
+Seed 2, Epoch 95: Train Loss = 0.0116, Test Loss = 0.0154
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 60.4287, Test Loss = 39.7031
+Seed 3, Epoch 5: Train Loss = 1.0881, Test Loss = 1.2296
+Seed 3, Epoch 10: Train Loss = 0.2871, Test Loss = 0.3572
+Seed 3, Epoch 15: Train Loss = 0.1757, Test Loss = 0.2224
+Seed 3, Epoch 20: Train Loss = 0.1238, Test Loss = 0.1259
+Seed 3, Epoch 25: Train Loss = 0.0941, Test Loss = 0.1126
+Seed 3, Epoch 30: Train Loss = 0.0911, Test Loss = 0.0744
+Seed 3, Epoch 35: Train Loss = 0.0865, Test Loss = 0.1233
+Seed 3, Epoch 40: Train Loss = 0.0744, Test Loss = 0.0480
+Seed 3, Epoch 45: Train Loss = 0.0518, Test Loss = 0.0518
+Seed 3, Epoch 50: Train Loss = 0.0757, Test Loss = 0.0589
+Seed 3, Epoch 55: Train Loss = 0.0525, Test Loss = 0.0454
+Seed 3, Epoch 60: Train Loss = 0.0530, Test Loss = 0.0422
+Seed 3, Epoch 65: Train Loss = 0.0385, Test Loss = 0.0441
+Seed 3, Epoch 70: Train Loss = 0.0303, Test Loss = 0.0317
+Seed 3, Epoch 75: Train Loss = 0.0364, Test Loss = 0.0294
+Seed 3, Epoch 80: Train Loss = 0.0326, Test Loss = 0.0405
+Seed 3, Epoch 85: Train Loss = 0.0274, Test Loss = 0.0399
+Seed 3, Epoch 90: Train Loss = 0.0240, Test Loss = 0.0275
+Seed 3, Epoch 95: Train Loss = 0.0312, Test Loss = 0.0330
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 44.7568, Test Loss = 20.8747
+Seed 4, Epoch 5: Train Loss = 1.2327, Test Loss = 0.7502
+Seed 4, Epoch 10: Train Loss = 0.3002, Test Loss = 0.1983
+Seed 4, Epoch 15: Train Loss = 0.1220, Test Loss = 0.0880
+Seed 4, Epoch 20: Train Loss = 0.1524, Test Loss = 0.1087
+Seed 4, Epoch 25: Train Loss = 0.0766, Test Loss = 0.0574
+Seed 4, Epoch 30: Train Loss = 0.0520, Test Loss = 0.0545
+Seed 4, Epoch 35: Train Loss = 0.0508, Test Loss = 0.0782
+Seed 4, Epoch 40: Train Loss = 0.0425, Test Loss = 0.0645
+Seed 4, Epoch 45: Train Loss = 0.0408, Test Loss = 0.0951
+Seed 4, Epoch 50: Train Loss = 0.0344, Test Loss = 0.0469
+Seed 4, Epoch 55: Train Loss = 0.0296, Test Loss = 0.0144
+Seed 4, Epoch 60: Train Loss = 0.0453, Test Loss = 0.0223
+Seed 4, Epoch 65: Train Loss = 0.0288, Test Loss = 0.0119
+Seed 4, Epoch 70: Train Loss = 0.0173, Test Loss = 0.0162
+Seed 4, Epoch 75: Train Loss = 0.0209, Test Loss = 0.0131
+Seed 4, Epoch 80: Train Loss = 0.0168, Test Loss = 0.0145
+Seed 4, Epoch 85: Train Loss = 0.0190, Test Loss = 0.0160
+Seed 4, Epoch 90: Train Loss = 0.0136, Test Loss = 0.0073
+Seed 4, Epoch 95: Train Loss = 0.0200, Test Loss = 0.0256
+
+Running trial with seed 0
+Error running experiments for lorenz: cannot import name 'PredictiveNet' from 'predictive_net' (/Users/macn/python_project/predictive net with passing/predictive_net.py)
+
+Running experiments for memory data...
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 1.0051, Test Loss = 0.9987
+Seed 0, Epoch 5: Train Loss = 0.9473, Test Loss = 1.0078
+Seed 0, Epoch 10: Train Loss = 0.7661, Test Loss = 1.1168
+Seed 0, Epoch 15: Train Loss = 0.5125, Test Loss = 1.3186
+Seed 0, Epoch 20: Train Loss = 0.3020, Test Loss = 1.4921
+Seed 0, Epoch 25: Train Loss = 0.1767, Test Loss = 1.7143
+Seed 0, Epoch 30: Train Loss = 0.1027, Test Loss = 1.7397
+Seed 0, Epoch 35: Train Loss = 0.0534, Test Loss = 1.8858
+Seed 0, Epoch 40: Train Loss = 0.0289, Test Loss = 1.9528
+Seed 0, Epoch 45: Train Loss = 0.0177, Test Loss = 1.9574
+Seed 0, Epoch 50: Train Loss = 0.0104, Test Loss = 2.0023
+Seed 0, Epoch 55: Train Loss = 0.0063, Test Loss = 2.0182
+Seed 0, Epoch 60: Train Loss = 0.0045, Test Loss = 2.0138
+Seed 0, Epoch 65: Train Loss = 0.0026, Test Loss = 2.0300
+Seed 0, Epoch 70: Train Loss = 0.0014, Test Loss = 2.0342
+Seed 0, Epoch 75: Train Loss = 0.0011, Test Loss = 2.0272
+Seed 0, Epoch 80: Train Loss = 0.0008, Test Loss = 2.0279
+Seed 0, Epoch 85: Train Loss = 0.0010, Test Loss = 2.0329
+Seed 0, Epoch 90: Train Loss = 0.0008, Test Loss = 2.0268
+Seed 0, Epoch 95: Train Loss = 0.0013, Test Loss = 2.0385
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 1.0211, Test Loss = 1.0164
+Seed 1, Epoch 5: Train Loss = 0.9330, Test Loss = 1.0273
+Seed 1, Epoch 10: Train Loss = 0.7325, Test Loss = 1.1721
+Seed 1, Epoch 15: Train Loss = 0.4874, Test Loss = 1.3506
+Seed 1, Epoch 20: Train Loss = 0.3234, Test Loss = 1.4897
+Seed 1, Epoch 25: Train Loss = 0.2101, Test Loss = 1.5073
+Seed 1, Epoch 30: Train Loss = 0.1141, Test Loss = 1.5989
+Seed 1, Epoch 35: Train Loss = 0.0655, Test Loss = 1.6243
+Seed 1, Epoch 40: Train Loss = 0.0421, Test Loss = 1.6580
+Seed 1, Epoch 45: Train Loss = 0.0215, Test Loss = 1.7243
+Seed 1, Epoch 50: Train Loss = 0.0133, Test Loss = 1.7225
+Seed 1, Epoch 55: Train Loss = 0.0086, Test Loss = 1.7416
+Seed 1, Epoch 60: Train Loss = 0.0052, Test Loss = 1.7527
+Seed 1, Epoch 65: Train Loss = 0.0034, Test Loss = 1.7484
+Seed 1, Epoch 70: Train Loss = 0.0018, Test Loss = 1.7469
+Seed 1, Epoch 75: Train Loss = 0.0015, Test Loss = 1.7631
+Seed 1, Epoch 80: Train Loss = 0.0009, Test Loss = 1.7599
+Seed 1, Epoch 85: Train Loss = 0.0012, Test Loss = 1.7548
+Seed 1, Epoch 90: Train Loss = 0.0011, Test Loss = 1.7507
+Seed 1, Epoch 95: Train Loss = 0.0044, Test Loss = 1.7574
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 1.0131, Test Loss = 1.0169
+Seed 2, Epoch 5: Train Loss = 0.9175, Test Loss = 1.0811
+Seed 2, Epoch 10: Train Loss = 0.7662, Test Loss = 1.1725
+Seed 2, Epoch 15: Train Loss = 0.5315, Test Loss = 1.3059
+Seed 2, Epoch 20: Train Loss = 0.3470, Test Loss = 1.4503
+Seed 2, Epoch 25: Train Loss = 0.2242, Test Loss = 1.5181
+Seed 2, Epoch 30: Train Loss = 0.1348, Test Loss = 1.6115
+Seed 2, Epoch 35: Train Loss = 0.0759, Test Loss = 1.7014
+Seed 2, Epoch 40: Train Loss = 0.0499, Test Loss = 1.7277
+Seed 2, Epoch 45: Train Loss = 0.0315, Test Loss = 1.6892
+Seed 2, Epoch 50: Train Loss = 0.0188, Test Loss = 1.7321
+Seed 2, Epoch 55: Train Loss = 0.0136, Test Loss = 1.7360
+Seed 2, Epoch 60: Train Loss = 0.0092, Test Loss = 1.7187
+Seed 2, Epoch 65: Train Loss = 0.0052, Test Loss = 1.7123
+Seed 2, Epoch 70: Train Loss = 0.0034, Test Loss = 1.7171
+Seed 2, Epoch 75: Train Loss = 0.0026, Test Loss = 1.7196
+Seed 2, Epoch 80: Train Loss = 0.0015, Test Loss = 1.7189
+Seed 2, Epoch 85: Train Loss = 0.0011, Test Loss = 1.7360
+Seed 2, Epoch 90: Train Loss = 0.0009, Test Loss = 1.7379
+Seed 2, Epoch 95: Train Loss = 0.0006, Test Loss = 1.7313
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 0.9997, Test Loss = 1.0201
+Seed 3, Epoch 5: Train Loss = 0.9398, Test Loss = 1.0342
+Seed 3, Epoch 10: Train Loss = 0.7720, Test Loss = 1.0337
+Seed 3, Epoch 15: Train Loss = 0.5398, Test Loss = 1.0419
+Seed 3, Epoch 20: Train Loss = 0.3388, Test Loss = 1.1198
+Seed 3, Epoch 25: Train Loss = 0.1917, Test Loss = 1.2482
+Seed 3, Epoch 30: Train Loss = 0.1066, Test Loss = 1.3642
+Seed 3, Epoch 35: Train Loss = 0.0652, Test Loss = 1.4340
+Seed 3, Epoch 40: Train Loss = 0.0393, Test Loss = 1.5081
+Seed 3, Epoch 45: Train Loss = 0.0221, Test Loss = 1.5480
+Seed 3, Epoch 50: Train Loss = 0.0135, Test Loss = 1.5548
+Seed 3, Epoch 55: Train Loss = 0.0077, Test Loss = 1.5744
+Seed 3, Epoch 60: Train Loss = 0.0054, Test Loss = 1.6013
+Seed 3, Epoch 65: Train Loss = 0.0034, Test Loss = 1.5978
+Seed 3, Epoch 70: Train Loss = 0.0024, Test Loss = 1.6116
+Seed 3, Epoch 75: Train Loss = 0.0022, Test Loss = 1.6311
+Seed 3, Epoch 80: Train Loss = 0.0013, Test Loss = 1.6246
+Seed 3, Epoch 85: Train Loss = 0.0011, Test Loss = 1.6349
+Seed 3, Epoch 90: Train Loss = 0.0008, Test Loss = 1.6413
+Seed 3, Epoch 95: Train Loss = 0.0009, Test Loss = 1.6475
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 1.0357, Test Loss = 0.9936
+Seed 4, Epoch 5: Train Loss = 0.9474, Test Loss = 1.0357
+Seed 4, Epoch 10: Train Loss = 0.8522, Test Loss = 1.0919
+Seed 4, Epoch 15: Train Loss = 0.6646, Test Loss = 1.2063
+Seed 4, Epoch 20: Train Loss = 0.4285, Test Loss = 1.3615
+Seed 4, Epoch 25: Train Loss = 0.2573, Test Loss = 1.5006
+Seed 4, Epoch 30: Train Loss = 0.1513, Test Loss = 1.5847
+Seed 4, Epoch 35: Train Loss = 0.0901, Test Loss = 1.6157
+Seed 4, Epoch 40: Train Loss = 0.0536, Test Loss = 1.7094
+Seed 4, Epoch 45: Train Loss = 0.0325, Test Loss = 1.7509
+Seed 4, Epoch 50: Train Loss = 0.0222, Test Loss = 1.7615
+Seed 4, Epoch 55: Train Loss = 0.0138, Test Loss = 1.7821
+Seed 4, Epoch 60: Train Loss = 0.0086, Test Loss = 1.7926
+Seed 4, Epoch 65: Train Loss = 0.0059, Test Loss = 1.8105
+Seed 4, Epoch 70: Train Loss = 0.0037, Test Loss = 1.8265
+Seed 4, Epoch 75: Train Loss = 0.0021, Test Loss = 1.8428
+Seed 4, Epoch 80: Train Loss = 0.0018, Test Loss = 1.8262
+Seed 4, Epoch 85: Train Loss = 0.0012, Test Loss = 1.8503
+Seed 4, Epoch 90: Train Loss = 0.0013, Test Loss = 1.8615
+Seed 4, Epoch 95: Train Loss = 0.0037, Test Loss = 1.8343
+
+Running trial with seed 0
+Error running experiments for memory: cannot import name 'PredictiveNet' from 'predictive_net' (/Users/macn/python_project/predictive net with passing/predictive_net.py)
+
+Running experiments for language data...
+
+Running trial with seed 0
+Seed 0, Epoch 0: Train Loss = 78.0580, Test Loss = 41.9994
+Seed 0, Epoch 5: Train Loss = 3.1712, Test Loss = 3.6832
+Seed 0, Epoch 10: Train Loss = 3.0244, Test Loss = 3.7886
+Seed 0, Epoch 15: Train Loss = 2.9847, Test Loss = 3.6592
+Seed 0, Epoch 20: Train Loss = 2.9991, Test Loss = 3.6587
+Seed 0, Epoch 25: Train Loss = 2.8963, Test Loss = 3.6344
+Seed 0, Epoch 30: Train Loss = 3.0700, Test Loss = 3.6571
+Seed 0, Epoch 35: Train Loss = 3.1249, Test Loss = 3.6132
+Seed 0, Epoch 40: Train Loss = 2.9977, Test Loss = 3.6685
+Seed 0, Epoch 45: Train Loss = 2.8800, Test Loss = 3.6219
+Seed 0, Epoch 50: Train Loss = 2.9844, Test Loss = 3.7565
+Seed 0, Epoch 55: Train Loss = 2.8964, Test Loss = 3.7012
+Seed 0, Epoch 60: Train Loss = 3.1057, Test Loss = 3.6481
+Seed 0, Epoch 65: Train Loss = 2.9560, Test Loss = 3.6357
+Seed 0, Epoch 70: Train Loss = 3.0391, Test Loss = 3.6516
+Seed 0, Epoch 75: Train Loss = 2.9140, Test Loss = 3.6917
+Seed 0, Epoch 80: Train Loss = 2.9298, Test Loss = 3.6888
+Seed 0, Epoch 85: Train Loss = 2.8728, Test Loss = 3.6174
+Seed 0, Epoch 90: Train Loss = 2.9449, Test Loss = 3.6807
+Seed 0, Epoch 95: Train Loss = 3.0912, Test Loss = 3.6089
+
+Running trial with seed 1
+Seed 1, Epoch 0: Train Loss = 47.6186, Test Loss = 31.5041
+Seed 1, Epoch 5: Train Loss = 3.2781, Test Loss = 3.3963
+Seed 1, Epoch 10: Train Loss = 3.2259, Test Loss = 3.3144
+Seed 1, Epoch 15: Train Loss = 3.1027, Test Loss = 3.3537
+Seed 1, Epoch 20: Train Loss = 3.2574, Test Loss = 3.3694
+Seed 1, Epoch 25: Train Loss = 3.1030, Test Loss = 3.3973
+Seed 1, Epoch 30: Train Loss = 3.1647, Test Loss = 3.4434
+Seed 1, Epoch 35: Train Loss = 3.1190, Test Loss = 3.3005
+Seed 1, Epoch 40: Train Loss = 3.0964, Test Loss = 3.2500
+Seed 1, Epoch 45: Train Loss = 3.1476, Test Loss = 3.2263
+Seed 1, Epoch 50: Train Loss = 3.1856, Test Loss = 3.2216
+Seed 1, Epoch 55: Train Loss = 3.1332, Test Loss = 3.2903
+Seed 1, Epoch 60: Train Loss = 3.1926, Test Loss = 3.2382
+Seed 1, Epoch 65: Train Loss = 3.1923, Test Loss = 3.3901
+Seed 1, Epoch 70: Train Loss = 3.1858, Test Loss = 3.3353
+Seed 1, Epoch 75: Train Loss = 3.2683, Test Loss = 3.2174
+Seed 1, Epoch 80: Train Loss = 3.1967, Test Loss = 3.3368
+Seed 1, Epoch 85: Train Loss = 3.1872, Test Loss = 3.3090
+Seed 1, Epoch 90: Train Loss = 3.0954, Test Loss = 3.3172
+Seed 1, Epoch 95: Train Loss = 3.1058, Test Loss = 3.2700
+
+Running trial with seed 2
+Seed 2, Epoch 0: Train Loss = 61.6164, Test Loss = 34.6145
+Seed 2, Epoch 5: Train Loss = 3.0732, Test Loss = 3.3533
+Seed 2, Epoch 10: Train Loss = 3.0299, Test Loss = 3.2551
+Seed 2, Epoch 15: Train Loss = 3.0341, Test Loss = 3.3019
+Seed 2, Epoch 20: Train Loss = 3.1186, Test Loss = 3.3137
+Seed 2, Epoch 25: Train Loss = 3.0251, Test Loss = 3.3275
+Seed 2, Epoch 30: Train Loss = 2.9945, Test Loss = 3.2138
+Seed 2, Epoch 35: Train Loss = 2.9873, Test Loss = 3.2337
+Seed 2, Epoch 40: Train Loss = 3.1350, Test Loss = 3.1958
+Seed 2, Epoch 45: Train Loss = 3.0060, Test Loss = 3.3069
+Seed 2, Epoch 50: Train Loss = 2.9581, Test Loss = 3.2553
+Seed 2, Epoch 55: Train Loss = 2.9929, Test Loss = 3.3082
+Seed 2, Epoch 60: Train Loss = 3.0148, Test Loss = 3.3170
+Seed 2, Epoch 65: Train Loss = 2.9819, Test Loss = 3.2079
+Seed 2, Epoch 70: Train Loss = 3.0719, Test Loss = 3.3075
+Seed 2, Epoch 75: Train Loss = 3.0487, Test Loss = 3.2090
+Seed 2, Epoch 80: Train Loss = 3.0496, Test Loss = 3.2367
+Seed 2, Epoch 85: Train Loss = 3.0709, Test Loss = 3.2817
+Seed 2, Epoch 90: Train Loss = 3.0196, Test Loss = 3.2934
+Seed 2, Epoch 95: Train Loss = 2.9948, Test Loss = 3.1934
+
+Running trial with seed 3
+Seed 3, Epoch 0: Train Loss = 64.2791, Test Loss = 36.8325
+Seed 3, Epoch 5: Train Loss = 3.2549, Test Loss = 3.4829
+Seed 3, Epoch 10: Train Loss = 3.3033, Test Loss = 3.4266
+Seed 3, Epoch 15: Train Loss = 3.3869, Test Loss = 3.3120
+Seed 3, Epoch 20: Train Loss = 3.1586, Test Loss = 3.2684
+Seed 3, Epoch 25: Train Loss = 3.2170, Test Loss = 3.4450
+Seed 3, Epoch 30: Train Loss = 3.2254, Test Loss = 3.4214
+Seed 3, Epoch 35: Train Loss = 3.1757, Test Loss = 3.4138
+Seed 3, Epoch 40: Train Loss = 3.2619, Test Loss = 3.2473
+Seed 3, Epoch 45: Train Loss = 3.2226, Test Loss = 3.8778
+Seed 3, Epoch 50: Train Loss = 3.2770, Test Loss = 3.6475
+Seed 3, Epoch 55: Train Loss = 3.2169, Test Loss = 3.3671
+Seed 3, Epoch 60: Train Loss = 3.2385, Test Loss = 3.4315
+Seed 3, Epoch 65: Train Loss = 3.2129, Test Loss = 3.3151
+Seed 3, Epoch 70: Train Loss = 3.2613, Test Loss = 3.5992
+Seed 3, Epoch 75: Train Loss = 3.2126, Test Loss = 3.9087
+Seed 3, Epoch 80: Train Loss = 3.2640, Test Loss = 3.4781
+Seed 3, Epoch 85: Train Loss = 3.2001, Test Loss = 3.3651
+Seed 3, Epoch 90: Train Loss = 3.2348, Test Loss = 3.3483
+Seed 3, Epoch 95: Train Loss = 3.2787, Test Loss = 3.3572
+
+Running trial with seed 4
+Seed 4, Epoch 0: Train Loss = 59.9128, Test Loss = 33.7845
+Seed 4, Epoch 5: Train Loss = 3.2283, Test Loss = 2.6169
+Seed 4, Epoch 10: Train Loss = 3.3089, Test Loss = 2.7570
+Seed 4, Epoch 15: Train Loss = 3.2114, Test Loss = 2.6213
+Seed 4, Epoch 20: Train Loss = 3.3174, Test Loss = 2.6183
+Seed 4, Epoch 25: Train Loss = 3.1545, Test Loss = 2.5041
+Seed 4, Epoch 30: Train Loss = 3.1242, Test Loss = 2.5280
+Seed 4, Epoch 35: Train Loss = 3.2157, Test Loss = 2.6732
+Seed 4, Epoch 40: Train Loss = 3.3055, Test Loss = 2.5143
+Seed 4, Epoch 45: Train Loss = 3.2332, Test Loss = 2.5118
+Seed 4, Epoch 50: Train Loss = 3.1786, Test Loss = 2.5496
+Seed 4, Epoch 55: Train Loss = 3.1193, Test Loss = 2.7382
+Seed 4, Epoch 60: Train Loss = 3.2651, Test Loss = 2.5361
+Seed 4, Epoch 65: Train Loss = 3.2365, Test Loss = 2.5392
+Seed 4, Epoch 70: Train Loss = 3.2438, Test Loss = 2.8813
+Seed 4, Epoch 75: Train Loss = 3.2596, Test Loss = 2.5184
+Seed 4, Epoch 80: Train Loss = 3.1590, Test Loss = 2.5983
+Seed 4, Epoch 85: Train Loss = 3.2454, Test Loss = 2.4440
+Seed 4, Epoch 90: Train Loss = 3.1383, Test Loss = 2.5843
+Seed 4, Epoch 95: Train Loss = 3.1489, Test Loss = 2.5541
+
+Running trial with seed 0
+Error running experiments for language: cannot import name 'PredictiveNet' from 'predictive_net' (/Users/macn/python_project/predictive net with passing/predictive_net.py)
+
+Results saved to new_experiment_results.json
